@@ -16,19 +16,9 @@ const Navbar = () => {
     },
   };
   return (
-    <div className=" overflow-hidden bg-white sticky py-2 px-3 z-20 w-full flex items-center justify-between top-0 left-0  h-[7vh] shadow-sm shadow-purple-700 font-mont">
-      <Link
-        to={"/"}
-        className="text-xl font-bold flex items-center justify-center"
-      >
-        {/* <img
-          src={Logo}
-          alt=""
-          className="h-[50px] w-[50px] md:h-[70px] md:w-[70px] "
-        /> */}
-        <span className="">
-          Techno<span className=" text-violet-700">Fest</span>
-        </span>
+    <div className=" overflow-hidden bg-white fixed py-2 px-3 z-20 w-full flex items-center justify-between top-0 left-0  h-[7vh] shadow-sm shadow-purple-700 font-mont">
+      <Link to={"/"} className="text-xl font-bold">
+        Techno<span className=" text-violet-700">Fest</span>
       </Link>
       <div className=" hidden lg:flex justify-between text-lg text-blue duration-200 gap-3">
         <HashLink

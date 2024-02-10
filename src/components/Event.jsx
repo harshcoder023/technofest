@@ -8,7 +8,7 @@ const Event = () => {
   const event = eventData.find((obj) => obj.id == id);
 
   return (
-    <div className="w-full min-h-[93vh] bg-[#0e1538] px-3 flex items-center justify-center font-mont">
+    <div className="w-full min-h-[100vh] bg-[#0e1538] px-3 pt-[7vh] flex items-center justify-center font-mont">
       <div className="container max-w-[900px] mx-auto md:pt-0 lg:px-0 bg-white shadow rounded-md lg:flex overflow-hidden">
         <div className="h-[40vh] lg:h-[50vh] lg:w-1/2">
           <img

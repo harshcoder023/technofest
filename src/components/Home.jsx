@@ -20,7 +20,7 @@ const Home = () => {
   };
   return (
     <div id="home" className="overflow-hidden font-mont">
-      <div className="h-[93vh] relative flex items-center justify-center  w-full text-white">
+      <div className="h-[100vh] relative flex items-center justify-center  w-full text-white">
         {" "}
         <div className=" absolute h-[100%] w-full flex items-center justify-center -z-10">
           <Lottie options={defaultOptions3} />
@@ -28,14 +28,14 @@ const Home = () => {
         <div className="flex flex-col items-center">
           <h1
             data-aos="fade-up"
-            className="text-4xl lg:text-6xl font-extrabold"
+            className="text-5xl lg:text-6xl font-extrabold"
           >
             TechnoFest
           </h1>
-          <span className="text-sm lg:text-xl">28th Feb - 1st March</span>
+          <span className="text-[16px] lg:text-xl">28th Feb - 1st March</span>
           <p
             data-aos="fade-down"
-            className="text-sm w-full text-center py-4 lg:text-xl"
+            className="text-[16px] w-full text-center py-4 lg:text-xl"
           >
             <Typewriter
               words={words}

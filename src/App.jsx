@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Register from "./components/Register";
+
 import { Toaster } from "react-hot-toast";
 import { useEffect } from "react";
 import Navbar from "./components/Navbar";
@@ -21,7 +21,6 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/register" element={<Register />} />
         <Route path="/registeration-form" element={<MultiStepForm />} />
         <Route path="/events/:id" element={<Event />} />
         <Route path="/category/:category" element={<CategoryEvents />} />

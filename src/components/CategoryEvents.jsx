@@ -21,7 +21,7 @@ const CategoryEvents = () => {
     .join(" "); // Join with spaces
   // console.log(eventsInCategory);
   return (
-    <div className="w-full min-h-[90vh] pb-10 lg:pb-0 bg-[#0e1538] font-mont">
+    <div className="w-full min-h-[100vh] pb-10 pt-[7vh] lg:pb-0 bg-[#0e1538] font-mont">
       <h2 className="text-xl uppercase font-[700] text-center pt-12 mb-8 lg:text-2xl text-white">
         {formattedCategoryName}
       </h2>
