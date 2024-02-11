@@ -5,6 +5,7 @@ export default {
     extend: {},
     fontFamily: {
       mont: ["Montserrat", "sans-serif"],
+      handwriting: ["Bad Script", "cursive"],
     },
     backgroundImage: {
       college: "url('/src/assets/college.jpg')",

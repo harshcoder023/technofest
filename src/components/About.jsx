@@ -71,16 +71,16 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="min-h-[93vh] bg-[#0e1538] py-12 border text-white">
+      <div className="min-h-[85vh] bg-[#0e1538] py-12 text-white">
         <div className="container max-w-screen-lg mx-auto px-4 lg:px-0">
           <div className="px-2">
             <h2
-              data-aos="fade-top"
+              data-aos="fade-left"
               className=" text-white font-mont text-2xl font-bold text-center mb-2 lg:text-3xl lg:font-semibold lg:mb-12"
             >
               Join Us
             </h2>
-            <p className="font-sans text-md mt-4">
+            <p data-aos="fade-right" className="font-sans text-md mt-4">
               Be a part of TechnoFest and experience the excitement! Whether
               you're a student, faculty member, or an enthusiast, there's
               something for everyone at our fest. Save the dates and join us
@@ -88,15 +88,20 @@ const About = () => {
               celebration of talent and innovation.
             </p>
             <div className="w-full flex flex-col items-center px-2">
-              <h3 className="mt-14 text-2xl mb-4 font-bold uppercase">
-                Starting Soon
-              </h3>
-              <p className="font-sans text-md mt-2">
-                Join us for TechnoFest on February 28th - March 1st, 2024! The
-                countdown is on!
-              </p>
+              <div data-aos="fade-right" className="text-center">
+                <h3 className="mt-14 text-2xl mb-4 font-bold uppercase">
+                  Starting Soon 🎉
+                </h3>
+                <p className="font-sans text-md mt-2">
+                  Join us for TechnoFest on February 28th - March 1st, 2024! The
+                  countdown is on!
+                </p>
+              </div>
               {/* <CountdownTimer targetDate={targetDate} /> */}
-              <div className="mt-20 relative w-[200px] h-[170px] bg-[#983179]  rounded-md">
+              <div
+                data-aos="fade-left"
+                className="mt-16 relative w-[200px] h-[170px] bg-[#983179]  rounded-md"
+              >
                 <CountdownToFebruary28 />
               </div>
             </div>

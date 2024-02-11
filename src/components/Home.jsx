@@ -7,6 +7,7 @@ import Accordion from "../components/Accordion";
 import Contact from "./Contact";
 import About from "./About";
 import Prizes from "./Prizes";
+import Team from "./Team";
 import { Link } from "react-router-dom";
 const Home = () => {
   const words = ["Events...", "Expert Talks...", "Celebrity Performances..."];
@@ -66,6 +67,7 @@ const Home = () => {
       <EventSection />
       <Prizes />
       <Accordion />
+      <Team />
       <Contact />
     </div>
   );

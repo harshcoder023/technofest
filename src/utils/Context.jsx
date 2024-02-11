@@ -7,11 +7,14 @@ const Context = (props) => {
     // Technical Events
     {
       id: 0,
-      name: "On the spot coding",
+      name: "Technical Quiz",
       details: [
-        "Participants must be in teams of two.",
-        "Questions will cover various technical topics.",
-        "Prizes for the top three teams.",
+        "Each team can have three students",
+        "Questions will cover various technical topics.The medium of quiz will be English only.",
+        "There will be a Pen-Paper test for screening purpose in case of more than 10 teams.",
+        "Only 10 teams is any tie amongst the team in the Pen-Paper round, then decision shall be taken through a special oral test amongst the tied teams only.",
+        "The quiz will be based on aptitude, reasoning, technical and management fields.",
+        "Selected teams will go for next Rounds.",
       ],
       image:
         "https://images.unsplash.com/photo-1682687982029-edb9aecf5f89?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8",

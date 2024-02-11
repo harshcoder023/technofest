@@ -16,11 +16,26 @@ const Navbar = () => {
     },
   };
   return (
-    <div className=" overflow-hidden bg-white fixed py-2 px-3 z-20 w-full flex items-center justify-between top-0 left-0  h-[7vh] shadow-sm shadow-purple-700 font-mont">
-      <Link to={"/"} className="text-xl font-bold">
-        Techno<span className=" text-violet-700">Fest</span>
-      </Link>
-      <div className=" hidden lg:flex justify-between text-lg text-blue duration-200 gap-3">
+    <div className=" bg-white fixed py-2 px-3 w-full top-0 left-0  h-[7vh]  font-mont">
+      <div className="container max-w-screen-lg mx-auto flex justify-between items-center">
+        <Link to={"/"} className="text-xl font-bold">
+          Techno<span className=" text-[#FA7F5C]">Fest</span>
+        </Link>
+        <Link
+          to={"/register"}
+          className="bg-[#FA7F5C] text-white px-2 py-1.5 rounded-md text-[17px]"
+        >
+          Register Now
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
+
+{
+  /* <div className=" hidden lg:flex justify-between text-lg text-blue duration-200 gap-3">
         <HashLink
           to={"/#home"}
           className=" hover:text-purple-700 hover:blur-none duration-200"
@@ -60,12 +75,7 @@ const Navbar = () => {
         >
           <FaBook /> Guide
         </a>
-        <Link
-          to={"/register"}
-          className="bg-green-600 text-white px-2 py-1.5 rounded-md text-[17px]"
-        >
-          Register
-        </Link>
+        
       </div>
       <FaBars
         onClick={() => setOpen(true)}
@@ -131,9 +141,5 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  );
-};
-
-export default Navbar;
+      </div> */
+}

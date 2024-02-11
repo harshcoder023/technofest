@@ -10,7 +10,7 @@ const Event = () => {
   return (
     <div className="w-full min-h-[100vh] bg-[#0e1538] px-3 pt-[7vh] flex items-center justify-center font-mont">
       <div className="container max-w-[900px] mx-auto md:pt-0 lg:px-0 bg-white shadow rounded-md lg:flex overflow-hidden">
-        <div className="h-[40vh] lg:h-[50vh] lg:w-1/2">
+        <div className="h-[40vh] lg:h-[60vh] lg:w-1/2">
           <img
             className="w-full h-full object-cover object-center"
             src={event.image}

@@ -5,10 +5,7 @@ import { MdSportsCricket } from "react-icons/md";
 import { Link } from "react-router-dom";
 const EventSection = () => {
   return (
-    <div
-      className=" w-full bg-[#E4F0F5] py-12 pt-[10vh] border min-h-[93vh] "
-      id="events"
-    >
+    <div className=" w-full bg-[#E4F0F5] py-12 min-h-[93vh] " id="events">
       <h2
         data-aos="fade-right"
         className=" text-black font-mont text-2xl font-medium text-center mb-4 lg:mb-8 lg:text-3xl lg:font-semibold"
