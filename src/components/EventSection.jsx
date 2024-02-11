@@ -7,8 +7,8 @@ const EventSection = () => {
   return (
     <div className=" w-full bg-[#E4F0F5] py-12 min-h-[93vh] " id="events">
       <h2
-        data-aos="fade-right"
-        className=" text-black font-mont text-2xl font-medium text-center mb-4 lg:mb-8 lg:text-3xl lg:font-semibold"
+        // data-aos="fade-top"
+        className=" text-[#232b2b] font-mont text-3xl font-[800] uppercase text-center mb-7 lg:text-3xl lg:font-semibold lg:mb-12"
       >
         Events
       </h2>
@@ -20,7 +20,10 @@ const EventSection = () => {
             className="orderLight relative h-[150px] w-[250px] hover:-translate-y-4 hover:bg-[#FA7F5C] flex items-center justify-center bg-[#0e1538]  duration-300 overflow-hidden rounded-md "
           >
             <div className=" text-white text-lg z-10 items-center flex flex-col justify-center gap-2">
-              <GiMusicalNotes className=" text-2xl" /> <h2> Cultural Events</h2>
+              <GiMusicalNotes className=" text-2xl" /> <h2> Cultural Events</h2>{" "}
+              <span className="text-xs font-light">
+                Click to see the events !
+              </span>
             </div>
           </Link>
         </div>{" "}
@@ -31,7 +34,10 @@ const EventSection = () => {
             className="orderLight relative h-[150px] w-[250px] hover:-translate-y-4 hover:bg-[#FA7F5C] flex items-center justify-center bg-[#0e1538]  duration-300 overflow-hidden rounded-md"
           >
             <div className=" text-white text-lg z-10 items-center flex flex-col justify-center gap-2">
-              <FaTools className=" text-2xl" /> <h2> Technical Events</h2>
+              <FaTools className=" text-2xl" /> <h2> Technical Events</h2>{" "}
+              <span className="text-xs font-light">
+                Click to see the events !
+              </span>
             </div>
           </Link>
         </div>
@@ -42,7 +48,10 @@ const EventSection = () => {
             className="orderLight relative h-[150px] w-[250px] hover:-translate-y-4 hover:bg-[#FA7F5C] flex items-center justify-center bg-[#0e1538]  duration-300 overflow-hidden rounded-md"
           >
             <div className=" text-white text-lg z-10 items-center flex flex-col justify-center gap-2">
-              <MdSportsCricket className=" text-2xl" /> <h2> Sports Events</h2>
+              <MdSportsCricket className=" text-2xl" /> <h2> Sports Events</h2>{" "}
+              <span className="text-xs font-light">
+                Click to see the events !
+              </span>
             </div>
           </Link>
         </div>

@@ -48,10 +48,10 @@ const Team = () => {
     <div className=" w-full bg-[#E4F0F5] py-12 min-h-[93vh]">
       <div className="container max-w-screen-lg mx-auto px-4 lg:px-0">
         <h2
-          data-aos="fade-"
-          className=" text-black font-mont text-2xl font-medium text-center mb-4 lg:mb-8 lg:text-3xl lg:font-semibold"
+          // data-aos="fade-top"
+          className=" text-[#232b2b] font-mont text-3xl font-[800] uppercase text-center mb-7 lg:text-3xl lg:font-semibold lg:mb-12"
         >
-          Meet the Team
+          Meet the team
         </h2>
         <p className="font-sans text-center ">
           Get to know the dedicated team behind TechnoFest 2024! Comprising 7
@@ -81,7 +81,7 @@ const Team = () => {
           </a>
         </div>
 
-        <div className="members lg:w-[85%] lg:mx-auto  flex flex-wrap gap-12 lg:gap-16 justify-center pt-6">
+        <div className="members lg:w-[85%] lg:mx-auto  flex flex-wrap gap-y-12 gap-x-24 lg:gap-16 justify-center pt-6">
           {teamMembers.map((member, index) => (
             <a key={index} href={member.social}>
               <div className="member lg:w-32  w-28  flex flex-col items-center gap-4">

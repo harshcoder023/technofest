@@ -10,7 +10,11 @@ import Prizes from "./Prizes";
 import Team from "./Team";
 import { Link } from "react-router-dom";
 const Home = () => {
-  const words = ["Events...", "Expert Talks...", "Celebrity Performances..."];
+  const words = [
+    "Amazing Events 🎉",
+    "Expert Talks",
+    "Celebrity Performances 🔥",
+  ];
 
   const defaultOptions3 = {
     loop: true,
@@ -27,18 +31,14 @@ const Home = () => {
         <div className=" absolute h-[100%] w-full flex items-center justify-center -z-10">
           <Lottie options={defaultOptions3} />
         </div>
-        <div className="flex flex-col items-center">
-          <h1
-            data-aos="fade-up"
-            className="text-5xl lg:text-6xl font-extrabold"
-          >
-            TechnoFest
+        <div data-aos="fade-up" className="flex flex-col items-center">
+          <h1 className="text-5xl lg:text-5xl font-extrabold uppercase">
+            Techno<span className="text-[#FA7F5C]">fest</span>
           </h1>
-          <span className="text-[16px] lg:text-xl">28th Feb - 1st March</span>
-          <p
-            data-aos="fade-down"
-            className="text-[16px] w-full text-center pt-4 pb-6 lg:text-xl"
-          >
+          <span className="text-[16px] lg:text-xl font-medium uppercase mt-2">
+            28<sup>th</sup> Feb - 1<sup>st</sup> March
+          </span>
+          <p className="text-[16px] w-full text-center pt-4 pb-6 lg:text-xl">
             <Typewriter
               words={words}
               loop={0}
@@ -50,13 +50,13 @@ const Home = () => {
             />
           </p>
           <div className="">
-            <a href="">
-              <button className="bg-white text-black px-2 py-2 lg:py-2.5 text-[14px] w-[120px] lg:w-[140px] uppercase font-medium ">
+            <a href="https://harshcoder023.github.io/Fest-Schedule-Page/">
+              <button className="bg-white text-black px-3 py-3 lg:py-2.5 text-[15px] w-[120px] lg:w-[140px] uppercase font-medium ">
                 Schedule
               </button>
             </a>
             <Link to="/registeration-form">
-              <button className="bg-[#FA7F5C] text-white px-2 py-2 lg:py-2.5 text-[14px] w-[120px] lg:w-[140px] uppercase font-medium">
+              <button className="bg-[#FA7F5C] text-white px-3 py-3 lg:py-2.5 text-[15px] w-[120px] lg:w-[140px] uppercase font-medium">
                 Register
               </button>
             </Link>

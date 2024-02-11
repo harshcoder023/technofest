@@ -17,8 +17,8 @@ const Prizes = () => {
       id="prizes"
     >
       <h2
-        data-aos="fade-right"
-        className=" text-white font-mont text-2xl font-medium text-center mb-2 lg:text-3xl lg:font-semibold"
+        // data-aos="fade-top"
+        className=" text-white font-mont text-3xl font-[800] uppercase text-center mb-2 lg:text-3xl lg:font-semibold lg:mb-12"
       >
         Prizes
       </h2>

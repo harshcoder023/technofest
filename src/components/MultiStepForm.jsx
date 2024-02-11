@@ -89,7 +89,7 @@ const MultiStepForm = () => {
   ];
 
   return (
-    <div className="w-full min-h-screen flex items-center justify-center bg-blue-600 px-3 font-sans">
+    <div className="w-full min-h-screen flex items-center justify-center bg-[#0e1538] px-3 font-sans">
       <div className="px-7 shadow py-4 border bg-white rounded-md overflow-hidden w-full max-w-[800px]">
         {steps[currentStep]}
       </div>

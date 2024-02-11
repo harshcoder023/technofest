@@ -14,7 +14,7 @@ const Contact = () => {
   };
   return (
     <div
-      className="  bg-[#0e1538] py-12 h-[70vh] lg:h-[50vh] relative"
+      className="  bg-[#0e1538] py-12 h-[65vh] lg:h-[50vh] relative"
       id="contact"
     >
       <div data-aos="fade-" className="absolute bottom-[-70px] right-0">
@@ -22,12 +22,12 @@ const Contact = () => {
           className=" bg-transparent"
           options={defaultOptions}
           height={400}
-          width={400}
+          width={450}
         />
       </div>
       <h2
-        data-aos="fade-"
-        className=" text-white font-mont text-2xl font-medium text-center mb-4 lg:mb-8 lg:text-3xl lg:font-semibold"
+        // data-aos="fade-top"
+        className=" text-white font-mont text-3xl font-[800] uppercase text-center mb-7 lg:text-3xl lg:font-semibold lg:mb-12"
       >
         Contact
       </h2>

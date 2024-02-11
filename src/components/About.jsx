@@ -15,8 +15,8 @@ const About = () => {
     <div>
       <div className="min-h-[93vh] bg-[#E4F0F5] py-12 ">
         <h2
-          data-aos="fade-top"
-          className=" text-black font-mont text-2xl font-medium text-center mb-2 lg:text-3xl lg:font-semibold lg:mb-12"
+          // data-aos="fade-top"
+          className=" text-[#232b2b] font-mont text-3xl font-[800] uppercase text-center mb-7 lg:text-3xl lg:font-semibold lg:mb-12"
         >
           About
         </h2>
@@ -42,25 +42,29 @@ const About = () => {
               <h2 className="text-3xl font-bold uppercase text-center leading-7 mb-2 ">
                 Vaish College of Engineering
               </h2>
-              <img
+              {/* <img
                 className="w-[120px] h-[120px] object-cover object-center absolute left-1/2 bottom-0 translate-x-[-50%] translate-y-[50%] lg:hidden"
                 src={Years}
                 alt=""
-              />
+              /> */}
             </div>
           </div>
           <div
             data-aos="fade-left"
-            className="right lg:w-1/2 font-mont  pt-24 px-3 lg:pt-4"
+            className="right lg:w-1/2 font-mont  pt-8 px-3 lg:pt-4"
           >
-            <h3 className="text-xl font-bold uppercase">About TechnoFest</h3>
+            <h3 className="text-xl font-bold uppercase text-[#232b2b]">
+              About TechnoFest
+            </h3>
             <p className="font-sans text-md mt-2">
               Welcome to TechnoFest, the premier fest hosted by Vaish College of
               Engineering! Established in 1995, Vaish College of Engineering
               takes pride in its first-ever TechnoFest, celebrating innovation,
               talent, and community spirit.
             </p>
-            <h3 className="text-xl font-bold uppercase mt-6">Our Mission</h3>
+            <h3 className="text-xl font-bold uppercase mt-6 text-[#232b2b]">
+              Our Mission
+            </h3>
             <p className="font-sans text-md mt-2">
               TechnoFest aims to create an inclusive platform for students to
               showcase their talents, explore their interests, and foster
@@ -75,12 +79,15 @@ const About = () => {
         <div className="container max-w-screen-lg mx-auto px-4 lg:px-0">
           <div className="px-2">
             <h2
-              data-aos="fade-left"
-              className=" text-white font-mont text-2xl font-bold text-center mb-2 lg:text-3xl lg:font-semibold lg:mb-12"
+              // data-aos="fade-top"
+              className=" text-white font-mont text-3xl font-[800] uppercase text-center mb-7 lg:text-3xl lg:font-semibold lg:mb-12"
             >
-              Join Us
+              join us
             </h2>
-            <p data-aos="fade-right" className="font-sans text-md mt-4">
+            <p
+              data-aos="fade-right"
+              className="font-sans text-md mt-4 text-justify"
+            >
               Be a part of TechnoFest and experience the excitement! Whether
               you're a student, faculty member, or an enthusiast, there's
               something for everyone at our fest. Save the dates and join us
