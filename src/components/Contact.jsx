@@ -14,7 +14,7 @@ const Contact = () => {
   };
   return (
     <div
-      className="  bg-[#0e1538] py-12 h-[65vh] lg:h-[50vh] relative"
+      className="  bg-[#0e1538] py-12 h-[65vh] max-[410px]:h-[75vh] lg:h-[50vh] relative"
       id="contact"
     >
       <div data-aos="fade-" className="absolute bottom-[-70px] right-0">

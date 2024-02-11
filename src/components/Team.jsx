@@ -60,7 +60,7 @@ const Team = () => {
         </p>
         <div className="mentor flex justify-center w-full pt-6  ">
           <a href="">
-            <div className="flex  items-center lg:gap-8 gap-6 border-b-[1px] border-gray-300 pb-6 px-4">
+            <div className="flex  items-center lg:gap-8 gap-6 max-[410px]:gap-10 border-b-[1px] border-gray-300 pb-6 px-4">
               <div className="image lg:w-32  w-28 lg:h-32  h-28 rounded-full overflow-hidden ">
                 <img
                   src="https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
@@ -70,7 +70,7 @@ const Team = () => {
               </div>
 
               <div>
-                <h3 className="font-mont text-2xl font-medium">
+                <h3 className="font-mont text-2xl max-[410px]:text-xl  font-medium">
                   Mr. Alok Gupta
                 </h3>
                 <span className="font-sans inline-block text-md font-medium">
@@ -81,7 +81,7 @@ const Team = () => {
           </a>
         </div>
 
-        <div className="members lg:w-[85%] lg:mx-auto  flex flex-wrap gap-y-12 gap-x-24 lg:gap-16 justify-center pt-6">
+        <div className="members lg:w-[85%] lg:mx-auto  flex flex-wrap gap-y-12 gap-x-24 max-[410px]:gap-x-20 lg:gap-16 justify-center pt-6">
           {teamMembers.map((member, index) => (
             <a key={index} href={member.social}>
               <div className="member lg:w-32  w-28  flex flex-col items-center gap-4">

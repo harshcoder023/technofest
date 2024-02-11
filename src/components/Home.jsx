@@ -32,7 +32,7 @@ const Home = () => {
           <Lottie options={defaultOptions3} />
         </div>
         <div data-aos="fade-up" className="flex flex-col items-center">
-          <h1 className="text-5xl lg:text-5xl font-extrabold uppercase">
+          <h1 className="text-5xl lg:text-5xl max-[410px]:text-[42px] font-extrabold uppercase">
             Techno<span className="text-[#FA7F5C]">fest</span>
           </h1>
           <span className="text-[16px] lg:text-xl font-medium uppercase mt-2">
