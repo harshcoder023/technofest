@@ -73,21 +73,21 @@ const About = () => {
       </div>
       <div className="min-h-[93vh] bg-[#0e1538] py-12 border text-white">
         <div className="container max-w-screen-lg mx-auto px-4 lg:px-0">
-          <div className="">
+          <div className="px-2">
             <h2
               data-aos="fade-top"
               className=" text-white font-mont text-2xl font-bold text-center mb-2 lg:text-3xl lg:font-semibold lg:mb-12"
             >
               Join Us
             </h2>
-            <p className="font-sans text-md mt-2">
+            <p className="font-sans text-md mt-4">
               Be a part of TechnoFest and experience the excitement! Whether
               you're a student, faculty member, or an enthusiast, there's
               something for everyone at our fest. Save the dates and join us
               from February 28th to March 1st, 2024, for an unforgettable
               celebration of talent and innovation.
             </p>
-            <div className="w-full flex flex-col items-center">
+            <div className="w-full flex flex-col items-center px-2">
               <h3 className="mt-14 text-2xl mb-4 font-bold uppercase">
                 Starting Soon
               </h3>
@@ -96,7 +96,9 @@ const About = () => {
                 countdown is on!
               </p>
               {/* <CountdownTimer targetDate={targetDate} /> */}
-              <CountdownToFebruary28 />
+              <div className="mt-20 relative w-[200px] h-[170px] bg-[#983179]  rounded-md">
+                <CountdownToFebruary28 />
+              </div>
             </div>
           </div>
         </div>

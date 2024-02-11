@@ -132,7 +132,7 @@ const ExpiredNotice = () => {
 
 const ShowCounter = ({ days, hours, minutes, seconds }) => {
   return (
-    <div className="show-counter flex gap-2 bg-[#FA7F5C] px-4 py-3 rounded-md">
+    <div className="show-counter flex gap-3 shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] bg-[#FA7F5C] px-5 py-4 rounded-md absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
       <DateTimeDisplay value={days} type={"Days"} isDanger={days <= 3} />
       <p>:</p>
       <DateTimeDisplay value={hours} type={"Hours"} isDanger={false} />
@@ -151,7 +151,7 @@ const DateTimeDisplay = ({ value, type, isDanger }) => {
         isDanger ? "danger" : ""
       } flex flex-col items-center`}
     >
-      <p className="text-2xl">{value}</p>
+      <p className="text-3xl">{value}</p>
       <span className="text-sm">{type}</span>
     </div>
   );
