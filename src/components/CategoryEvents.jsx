@@ -28,7 +28,7 @@ const CategoryEvents = () => {
       <div className="flex lg:gap-4 gap-x-3 gap-y-3 flex-wrap items-center justify-center w-full">
         {eventsInCategory.map((event, index) => (
           <Link to={`/events/${event.id}`} key={index}>
-            <div className="card w-[190px] h-[215px] lg:w-[250px] lg:h-[250px] bg-white rounded-md shadow  overflow-hidden">
+            <div className="card w-[190px] max-[410px]:w-[165px] h-[215px] lg:w-[250px] lg:h-[250px] bg-white rounded-md shadow  overflow-hidden">
               <div className="w-full h-[120px] lg:h-[150px]">
                 <img
                   src={event.image}
