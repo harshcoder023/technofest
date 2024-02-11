@@ -19,8 +19,8 @@ const Home = () => {
     },
   };
   return (
-    <div id="home" className="overflow-hidden font-mont">
-      <div className="h-[100vh] relative flex items-center justify-center  w-full text-white">
+    <div id="home" className="overflow-hidden font-mont mt-[7vh]">
+      <div className="h-[93vh] relative flex items-center justify-center  w-full text-white">
         {" "}
         <div className=" absolute h-[100%] w-full flex items-center justify-center -z-10">
           <Lottie options={defaultOptions3} />

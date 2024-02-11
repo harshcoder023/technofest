@@ -16,7 +16,7 @@ const Contact = () => {
   };
   return (
     <div
-      className=" flex flex-col items-center overflow-hidden justify-center bg-[#0e1538] p-9 pt-[10vh] gap-6"
+      className=" flex flex-col items-center overflow-hidden justify-center bg-[#0e1538] py-12 gap-6 border min-h-[93vh]"
       id="contact"
     >
       <div

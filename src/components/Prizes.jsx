@@ -13,18 +13,17 @@ const Prizes = () => {
   };
   return (
     <div
-      className=" flex flex-col items-center overflow-hidden justify-center bg-[#0e1538] p-9 pt-[10vh] gap-6"
+      className="overflow-hidden min-h-[94vh] py-12 bg-[#0e1538] border"
       id="prizes"
     >
-      <div
-        data-aos="fade-up"
-        className=" flex items-center justify-center gap-2 text-white text-3xl border-b-2 py-2 border-white"
+      <h2
+        data-aos="fade-right"
+        className=" text-white font-mont text-2xl font-medium text-center mb-2 lg:text-3xl lg:font-semibold"
       >
-        <FaTrophy />
-        <h2 className=" text-white">Prizes</h2>
-      </div>
-      <div className=" flex flex-col md:flex-row items-center justify-center">
-        <div className=" md:w-[50vw] flex items-center justify-center text-7xl gap-4 text-white"></div>
+        Prizes
+      </h2>
+
+      <div className="border-t-[1px] lg:flex lg:justify-center border-gray-500">
         <div
           data-aos="fade-left"
           className=" flex items-center overflow-hidden justify-end md:w-[50vw]"
@@ -36,6 +35,12 @@ const Prizes = () => {
             width={350}
           />
         </div>
+      </div>
+
+      <div className="cards">
+        <div className="card"></div>
+        <div className="card"></div>
+        <div className="card"></div>
       </div>
     </div>
   );

@@ -52,43 +52,60 @@ const FAQ = () => {
   ];
   return (
     <div
-      className=" flex flex-col items-center justify-center bg-[#0e1538] p-9 gap-6 pt-[10vh] overflow-hidden"
+      className=" bg-[#0e1538] px-3 py-12 overflow-hidden min-h-[93vh] text-white border"
       id="doubts"
     >
-      <h2
-        data-aos="fade-up"
-        className=" flex items-center justify-center text-white text-3xl border-b-2 py-2 border-white "
+      <div
+        data-aos="fade-right"
+        className="w-full text-center font-sans lg:flex lg:flex-col lg:items-center"
       >
-        {" "}
-        Doubts ?
-      </h2>
-      <div className=" flex flex-col md:flex-row items-center justify-center bg-[#0e1538]">
-        <div
-          data-aos="fade-right"
-          className=" flex flex-col items-center justify-center md:w-[50vw]"
-        >
-          <Lottie options={defaultOptions} height={300} width={300} />
+        <h2 className="text-2xl lg:text-3xl lg:font-semibold font-medium font-mont">
+          Do you have Questions ?
+        </h2>
+        <p className="text-sm py-2 lg:py-4 lg:text-[16px]">
+          We have answers (well, most of the times!)
+        </p>
+        <p className="font-sans text-sm lg:text-[16px] lg:w-[60%]">
+          Below you’ll find answers to the most common questions you may have on
+          TechnoFest. If you still can’t find the answer you’re looking for,
+          just DM us on our <a href="">Instagram Page</a>
+        </p>
+      </div>
+      <div className=" flex flex-col  justify-center bg-[#0e1538]">
+        <div className="relative border-b-[1px] border-gray-500  w-full h-[280px]">
+          <div data-aos="" className=" absolute bottom-[-17px] w-full">
+            <Lottie options={defaultOptions} height={280} width={280} />
+          </div>
         </div>
-        <div data-aos="fade-left" className=" w-[100vw] md:w-[50vw]">
-          <Accordion
-            allowZeroExpanded={true}
-            className=" w-[80%] mx-auto md:ml-0 "
+        <div className="font-sans pt-8">
+          <h3 className="text-center text-xl font-medium font-mont mb-6 lg:text-2xl">
+            TechnoFest FAQs
+          </h3>
+          <div
+            data-aos="fade-left"
+            className="w-full px-4 lg:flex lg:justify-center"
           >
-            {questionAnswerArray.map((item, index) => (
-              <AccordionItem
-                key={index}
-                className=" shadow-lg shadow-purple-700 my-3 rounded-lg"
-              >
-                <AccordionItemHeading>
-                  <AccordionItemButton>{item.question}</AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                  <p className=" text-white">{item.answer}</p>
-                </AccordionItemPanel>
-              </AccordionItem>
-            ))}
-          </Accordion>
-          <div></div>
+            <Accordion
+              allowZeroExpanded={true}
+              className="bg-white rounded-md overflow-hidden lg:w-[60%]"
+            >
+              {questionAnswerArray.map((item, index) => (
+                <AccordionItem
+                  key={index}
+                  className="border-b-[1px] border-gray-300"
+                >
+                  <AccordionItemHeading className="font-sans">
+                    <AccordionItemButton>{item.question}</AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel className="px-4 pt-4 pb-5">
+                    <p className=" text-gray-500 font-sans text-sm">
+                      {item.answer}
+                    </p>
+                  </AccordionItemPanel>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
         </div>
       </div>
     </div>
