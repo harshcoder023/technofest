@@ -52,7 +52,7 @@ const FAQ = () => {
   ];
   return (
     <div
-      className=" bg-[#0e1538] px-3 py-12 overflow-hidden min-h-[93vh] text-white border"
+      className=" bg-[#0e1538] px-3 py-12 overflow-hidden min-h-[93vh] text-white "
       id="doubts"
     >
       <div

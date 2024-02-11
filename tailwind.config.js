@@ -6,6 +6,10 @@ export default {
     fontFamily: {
       mont: ["Montserrat", "sans-serif"],
     },
+    backgroundImage: {
+      college: "url('/src/assets/college.jpg')",
+      "footer-texture": "url('/img/footer-texture.png')",
+    },
   },
   plugins: [],
 };

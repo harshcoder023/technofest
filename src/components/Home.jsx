@@ -5,6 +5,7 @@ import Data3 from "../animations/Animation - 1707026607235.json";
 import EventSection from "../components/EventSection";
 import Accordion from "../components/Accordion";
 import Contact from "./Contact";
+import About from "./About";
 import Prizes from "./Prizes";
 import { Link } from "react-router-dom";
 const Home = () => {
@@ -35,7 +36,7 @@ const Home = () => {
           <span className="text-[16px] lg:text-xl">28th Feb - 1st March</span>
           <p
             data-aos="fade-down"
-            className="text-[16px] w-full text-center py-4 lg:text-xl"
+            className="text-[16px] w-full text-center pt-4 pb-6 lg:text-xl"
           >
             <Typewriter
               words={words}
@@ -47,13 +48,21 @@ const Home = () => {
               delaySpeed={2000}
             />
           </p>
-          <Link to="/registeration-form">
-            <button className="bg-green-600 text-white px-2 py-1.5 rounded-md text-[17px]">
-              Register Now
-            </button>
-          </Link>
+          <div className="">
+            <a href="">
+              <button className="bg-white text-black px-2 py-2 lg:py-2.5 text-[14px] w-[120px] lg:w-[140px] uppercase font-medium ">
+                Schedule
+              </button>
+            </a>
+            <Link to="/registeration-form">
+              <button className="bg-[#FA7F5C] text-white px-2 py-2 lg:py-2.5 text-[14px] w-[120px] lg:w-[140px] uppercase font-medium">
+                Register
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
+      <About />
       <EventSection />
       <Prizes />
       <Accordion />

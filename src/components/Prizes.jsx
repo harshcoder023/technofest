@@ -13,7 +13,7 @@ const Prizes = () => {
   };
   return (
     <div
-      className="overflow-hidden min-h-[94vh] py-12 bg-[#0e1538] border"
+      className="overflow-hidden min-h-[94vh] py-12 bg-[#0e1538] "
       id="prizes"
     >
       <h2
