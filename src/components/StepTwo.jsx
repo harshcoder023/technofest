@@ -79,8 +79,11 @@ const StepTwo = ({
                 name={`teamDetails.${eventName}[${i}].name`}
                 placeholder="Name"
                 validate={(value) => {
+                  // Validate full name
                   if (!value) {
                     return "Name is required.";
+                  } else if (!/^[A-Za-z]+(?:\s+[A-Za-z]+)*$/.test(value)) {
+                    return "Invalid full name format";
                   }
                 }}
               />
@@ -91,6 +94,8 @@ const StepTwo = ({
                 validate={(value) => {
                   if (!value) {
                     return "Roll No. is required.";
+                  } else if (!/^[A-Za-z0-9]+\/[A-Za-z0-9]+\/\d+$/.test(value)) {
+                    return "Invalid roll number format";
                   }
                 }}
               />
