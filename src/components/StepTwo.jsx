@@ -45,9 +45,12 @@ const StepTwo = ({
   };
   const handleSubmit = (values) => {
     if (data.selectedEvents.length === 0) {
-      setErrorMessage("You have to select at least 1 event.");
+      setErrorMessage("You have to select at least 1 event."); // Set error message when no event is selected
       return;
+    } else {
+      setErrorMessage(""); // Clear error message when an event is selected
     }
+
     const teamDetails = extractTeamDetails(values);
     next(
       {
@@ -217,7 +220,7 @@ const StepTwo = ({
             <button
               className="bg-green-600 py-2 text-white rounded-md"
               type="submit"
-              disabled={isSubmitting}
+              disabled={isSubmitting || data.selectedEvents.length === 0}
             >
               {isSubmitting ? "Submitting..." : "Submit"}
             </button>
