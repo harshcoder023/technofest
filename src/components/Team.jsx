@@ -1,5 +1,5 @@
 import React from "react";
-
+import Shreysh from "../assets/shreysh.jpeg";
 const Team = () => {
   const teamMembers = [
     {
@@ -41,6 +41,11 @@ const Team = () => {
       name: "Sahil",
       image:
         "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.9092553.1705229888&semt=sph",
+      social: "",
+    },
+    {
+      name: "Shreysh",
+      image: Shreysh,
       social: "",
     },
   ];

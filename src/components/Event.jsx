@@ -23,6 +23,7 @@ const Event = () => {
           </span>
           <h1 className="text-lg font-[600] uppercase mt-2">{event.name}</h1>
           <p className="text-sm font-[500]">{event.timing}</p>
+          <p className="text-sm font-[500]">{event.coordinator}</p>
           <h3 className="text-md mt-2.5 font-medium">Event Details -</h3>
           <ul className="mb-4 list-inside list-disc mt-1 text-sm">
             {event.details.map((item, i) => {
