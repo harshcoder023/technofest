@@ -47,7 +47,7 @@ const StepTwo = ({
     {
       name: "AD Mad",
       team_size: 2,
-      category: "Cultural Events",
+      category: "Technical Events",
     },
     {
       name: "Startup Ideas",
@@ -67,12 +67,12 @@ const StepTwo = ({
     {
       name: "E-Sports",
       team_size: 4,
-      category: "Sports Events",
+      category: "Technical Events",
     },
     {
       name: "Earning by Learning",
       team_size: 3,
-      category: "Cultural Events",
+      category: "Technical Events",
     },
     {
       name: "Solo Dance",

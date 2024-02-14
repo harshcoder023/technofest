@@ -50,7 +50,7 @@ const Home = () => {
             />
           </p>
           <div className="">
-            <a href="https://harshcoder023.github.io/Fest-Schedule-Page/">
+            <a href="https://harshcoder023.github.io/fest-schedule/">
               <button className="bg-white text-black px-3 py-3 lg:py-2.5 text-[15px] w-[120px] lg:w-[140px] uppercase font-medium ">
                 Schedule
               </button>

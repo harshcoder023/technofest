@@ -75,7 +75,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="min-h-[85vh] bg-[#0e1538] py-24 text-white">
+      <div className="min-h-[85vh] bg-[#0e1538] py-20 text-white">
         <div className="container max-w-screen-lg mx-auto px-4 lg:px-0">
           <div className="px-2">
             <h2

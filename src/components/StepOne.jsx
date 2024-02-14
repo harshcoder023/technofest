@@ -57,9 +57,15 @@ const StepOne = (props) => {
         />
         <div className="flex gap-2 pt-4">
           <Field name="course" as="select" className="w-[50%] border py-2 px-1">
-            <option value="btech_cse">Btech CSE</option>
-            <option value="btech_ece">Btech ECE</option>
+            <option value="btech_cse">B.Tech CSE</option>
+            <option value="btech_ece">B.Tech ECE</option>
+            <option value="btech_ee">B.Tech EE</option>
+            <option value="btech_me">B.Tech ME</option>
             <option value="bca">BCA</option>
+            <option value="bba">BBA</option>
+            <option value="mba">MBA</option>
+            <option value="mtech_cse">M.Tech CSE</option>
+            <option value="mtech_ece">M.Tech ECE</option>
           </Field>
           <Field name="year" as="select" className="w-[50%] border py-2 px-1">
             <option value="1">1st Year</option>

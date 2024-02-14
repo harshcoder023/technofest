@@ -5,6 +5,8 @@ import { HashLink } from "react-router-hash-link";
 import Data3 from "../animations/Animation - 1707026607235.json";
 import Lottie from "react-lottie";
 import Logo from "../images/LOGO1.png";
+import Rulebook from "../assets/rulebook.pdf";
+import BookLineIcon from "remixicon-react/BookLineIcon";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const defaultOptions3 = {
@@ -18,15 +20,29 @@ const Navbar = () => {
   return (
     <div className=" bg-white fixed py-2 px-3 w-full top-0 left-0  h-[7vh]  font-mont z-10 shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] flex items-center">
       <div className="container max-w-screen-lg mx-auto flex justify-between items-center">
-        <Link to={"/"} className="text-xl font-extrabold uppercase">
+        <Link
+          to={"/"}
+          className="md:text-xl md:font-extrabold uppercase text-lg font-extrabold"
+        >
           Techno<span className=" text-[#FA7F5C]">Fest</span>
         </Link>
-        <Link
-          to="/registeration-form"
-          className="bg-[#FA7F5C] text-white px-3 py-1.5 rounded-sm text-[15px] font-sans"
-        >
-          Register Now
-        </Link>
+        <div className="flex md:gap-4 gap-2">
+          <a
+            download
+            href={Rulebook}
+            className="text-black border border-black md:px-3 md:py-1.5 rounded-sm px-2 py-1.5 text-[14px] md:text-[15px] font-sans font-medium flex items-center gap-1.5"
+          >
+            <BookLineIcon color="#000" size={16} />
+            Rulebook
+          </a>
+          <Link
+            to="/registeration-form"
+            className="bg-[#FA7F5C] text-white md:px-3 md:py-1.5 px-2 py-1.5 rounded-sm text-[14px] md:text-[15px] font-sans"
+          >
+            <span className="min-[410px]:hidden">Register</span>
+            <span className="min-[410px]:inline hidden">Register Now</span>
+          </Link>
+        </div>
       </div>
     </div>
   );
