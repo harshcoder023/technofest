@@ -13,16 +13,130 @@ const StepTwo = ({
   setInitialValues,
 }) => {
   const events = [
-    { name: "Technical Quiz", team_size: 3 },
-    { name: "Technical Debate", team_size: 2 },
-    { name: "On the spot coding", team_size: 1 },
-    { name: "Exhibition of Projects", team_size: 2 },
-    { name: "Logo Designing", team_size: 1 },
-    { name: "App and Web Dev", team_size: 2 },
-    { name: "E-sports", team_size: 4 },
-    { name: "Solo Dance", team_size: 1 },
-    { name: "Poster Making", team_size: 1 },
-    { name: "Best out of waste", team_size: 1 },
+    {
+      name: "Technical Quiz",
+      team_size: 3,
+    },
+    {
+      name: "Technical Debate",
+      team_size: 2,
+    },
+    {
+      name: "Management Games",
+      team_size: 4,
+    },
+    {
+      name: "On The Spot Coding",
+      team_size: 1,
+    },
+    {
+      name: "Exhibition of Projects",
+      team_size: 3,
+    },
+    {
+      name: "Logo Designing",
+      team_size: 1,
+    },
+    {
+      name: "AD Mad",
+      team_size: 2,
+    },
+    {
+      name: "Startup Ideas",
+      team_size: 3,
+    },
+    {
+      name: "Group Discussion",
+      team_size: 3,
+    },
+    {
+      name: "App & Web Development",
+      team_size: 2,
+    },
+    {
+      name: "E-Sports",
+      team_size: 4,
+    },
+    {
+      name: "Earning by Learning",
+      team_size: 3,
+    },
+    {
+      name: "Solo Dance",
+      team_size: 1,
+    },
+    {
+      name: "Duet Dance",
+      team_size: 2,
+    },
+    {
+      name: "Group Dance",
+      team_size: 6,
+    },
+    {
+      name: "Solo Song",
+      team_size: 1,
+    },
+    {
+      name: "Duet Song",
+      team_size: 2,
+    },
+    {
+      name: "Group Song",
+      team_size: 6,
+    },
+    {
+      name: "Click the Fest (Photography)",
+      team_size: 1,
+    },
+    {
+      name: "Mimicry",
+      team_size: 1,
+    },
+    {
+      name: "Poster Making",
+      team_size: 1,
+    },
+    {
+      name: "Halloween Show",
+      team_size: 2,
+    },
+    {
+      name: "Mehendi",
+      team_size: 2,
+    },
+    {
+      name: "Rangoli",
+      team_size: 1,
+    },
+    {
+      name: "Best out of waste",
+      team_size: 1,
+    },
+    {
+      name: "Collage Making",
+      team_size: 1,
+    },
+    {
+      name: "Volta Face",
+      team_size: 1,
+    },
+    {
+      name: "Couple Cricket",
+      team_size: 1,
+    },
+    {
+      name: "Table Tennis",
+      team_size: 1,
+    },
+    {
+      name: "Chess",
+      team_size: 1,
+    },
+    {
+      name: "Badminton",
+      team_size: 1,
+    },
   ];
   const [errorMessage, setErrorMessage] = useState("");
 
@@ -44,13 +158,6 @@ const StepTwo = ({
     return teamDetails;
   };
   const handleSubmit = (values) => {
-    if (data.selectedEvents.length === 0) {
-      setErrorMessage("You have to select at least 1 event."); // Set error message when no event is selected
-      return;
-    } else {
-      setErrorMessage(""); // Clear error message when an event is selected
-    }
-
     const teamDetails = extractTeamDetails(values);
     next(
       {
@@ -61,8 +168,6 @@ const StepTwo = ({
       true
     );
   };
-
-  // let initialValues = ;
 
   const renderTeamDetails = (values) => {
     return data.selectedEvents.map((eventName) => {
@@ -161,7 +266,6 @@ const StepTwo = ({
                 className="rounded-lg px-2 py-1 cursor-pointer text-sm"
                 key={index}
                 onClick={() => {
-                  setErrorMessage("");
                   setData((prevData) => ({
                     ...prevData,
                     selectedEvents: prevData.selectedEvents.includes(event.name)

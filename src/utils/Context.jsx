@@ -22,6 +22,7 @@ const Context = (props) => {
       timing: "9:00 AM - 12:00 PM",
       category: "technical-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 1,
@@ -38,6 +39,7 @@ const Context = (props) => {
       timing: "1:00 PM - 4:00 PM",
       category: "technical-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     // Sports Events
     {
@@ -52,6 +54,7 @@ const Context = (props) => {
       timing: "10:00 AM - 6:00 PM",
       category: "technical-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 3,
@@ -67,6 +70,7 @@ const Context = (props) => {
       timing: "2:00 PM - 5:00 PM",
       category: "technical-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     // Cultural Events
     {
@@ -81,6 +85,7 @@ const Context = (props) => {
       timing: "3:00 PM - 6:00 PM",
       category: "technical-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 5,
@@ -94,6 +99,7 @@ const Context = (props) => {
       timing: "3:00 PM - 6:00 PM",
       category: "technical-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 6,
@@ -108,6 +114,7 @@ const Context = (props) => {
       timing: "3:00 PM - 6:00 PM",
       category: "technical-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 7,
@@ -121,6 +128,7 @@ const Context = (props) => {
       timing: "3:00 PM - 6:00 PM",
       category: "technical-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 8,
@@ -134,6 +142,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "technical-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 9,
@@ -146,6 +155,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "technical-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 10,
@@ -162,6 +172,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "technical-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 11,
@@ -175,6 +186,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "technical-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 12,
@@ -189,6 +201,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "cultural-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 13,
@@ -203,6 +216,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "cultural-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 14,
@@ -217,6 +231,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "cultural-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 15,
@@ -231,6 +246,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "cultural-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 16,
@@ -244,6 +260,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "cultural-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 17,
@@ -257,6 +274,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "cultural-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 18,
@@ -272,6 +290,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "cultural-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 19,
@@ -285,6 +304,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "cultural-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 20,
@@ -299,6 +319,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "cultural-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 21,
@@ -313,6 +334,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "cultural-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 22,
@@ -329,6 +351,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "cultural-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 23,
@@ -346,6 +369,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "cultural-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 24,
@@ -362,6 +386,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "cultural-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 25,
@@ -378,6 +403,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "cultural-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 26,
@@ -394,6 +420,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "cultural-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 27,
@@ -403,6 +430,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "sports-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 28,
@@ -413,6 +441,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "sports-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 29,
@@ -423,6 +452,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "sports-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
     {
       id: 30,
@@ -433,6 +463,7 @@ const Context = (props) => {
       timing: "7:00 PM - 10:00 PM",
       category: "sports-events",
       coordinator: "Harsh Goyal",
+      team_size: 2,
     },
   ];
 
