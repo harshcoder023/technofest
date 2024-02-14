@@ -15,7 +15,7 @@ const Contact = () => {
   };
   return (
     <div
-      className="  bg-[#0e1538] py-12 h-[80vh] max-[410px]:h-[90vh] lg:h-[60vh] relative"
+      className="  bg-[#0e1538] py-12 h-[85vh] max-[410px]:h-[90vh] lg:h-[60vh] relative"
       id="contact"
     >
       <div data-aos="fade-" className="absolute bottom-[-70px] right-0">
@@ -32,7 +32,7 @@ const Contact = () => {
       >
         Contact
       </h2>
-      <div className="container text-white lg:w-[60%] w-[80%] mx-auto ">
+      <div className="container text-white lg:w-[60%] w-[85%] mx-auto ">
         {/* <div className="mb-6">
           <h3 className="flex flex-col gap-4">
             <span className=" flex  gap-2">
@@ -136,7 +136,7 @@ const Contact = () => {
               </h4>
             </div>
           </div>
-          <div className="right">
+          <div className="right w-28 lg:w-auto">
             <h3 className="text-xl font-medium mb-4">Social</h3>
             <div>
               <h4 className="flex font-light items-center gap-2 text-[15px]">

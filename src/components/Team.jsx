@@ -58,7 +58,8 @@ const Team = () => {
       name: "Yash",
       image:
         "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.9092553.1705229888&semt=sph",
-      social: "",
+      social:
+        "https://www.linkedin.com/in/yashmit-narang-87a68626a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   ];
   return (
