@@ -18,12 +18,12 @@ const Event = () => {
           />
         </div>
         <div className="px-4 py-4 lg:px-6 lg:py-8 lg:w-1/2">
-          <span className="inline-block bg-green-600 text-white px-2 rounded-md text-xs py-1">
+          <span className="inline-block bg-[#FA7F5C] text-white px-2 rounded-md text-xs py-1">
             {event.category}
           </span>
           <h1 className="text-lg font-[600] uppercase mt-2">{event.name}</h1>
-          <p className="text-sm font-[500]">{event.timing}</p>
-          <p className="text-sm font-[500]">{event.coordinator}</p>
+          <p className="text-[13px] font-[500] mt-1">{event.timing}</p>
+          <p className="text-[13px] font-[500] mt-2">{event.coordinator}</p>
           <h3 className="text-md mt-2.5 font-medium">Event Details -</h3>
           <ul className="mb-4 list-inside list-disc mt-1 text-sm">
             {event.details.map((item, i) => {

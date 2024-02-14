@@ -19,9 +19,10 @@ const Context = (props) => {
       ],
       image:
         "https://cdn.pixabay.com/photo/2019/05/22/20/06/brainstorm-4222409_640.jpg",
-      timing: "9:00 AM - 12:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
-      coordinator: "Harsh Goyal",
+      coordinator:
+        "Contact our coordinators, Anurag Seghal (8569803596), for any queries.",
       team_size: 2,
     },
     {
@@ -36,9 +37,10 @@ const Context = (props) => {
       ],
       image:
         "https://cdn.pixabay.com/photo/2019/04/23/04/50/consulting-4148449_640.jpg",
-      timing: "1:00 PM - 4:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
-      coordinator: "Harsh Goyal",
+      coordinator:
+        "Contact our coordinators, Nimit Shekhawat (9467015594) and Chhavi Kapoor (9991074299), for any queries.",
       team_size: 2,
     },
     // Sports Events
@@ -51,7 +53,7 @@ const Context = (props) => {
       ],
       image:
         "https://img.freepik.com/free-photo/friends-together-play-board-games-table-football_146671-15405.jpg?size=626&ext=jpg&ga=GA1.1.9092553.1705229888&semt=ais",
-      timing: "10:00 AM - 6:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
       coordinator: "Harsh Goyal",
       team_size: 2,
@@ -67,9 +69,10 @@ const Context = (props) => {
       ],
       image:
         "https://img.freepik.com/free-photo/person-working-html-computer_23-2150040424.jpg?size=626&ext=jpg&ga=GA1.1.9092553.1705229888&semt=ais",
-      timing: "2:00 PM - 5:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
-      coordinator: "Harsh Goyal",
+      coordinator:
+        "Contact our coordinators, Siddharth (8813055897), for any queries.",
       team_size: 2,
     },
     // Cultural Events
@@ -82,9 +85,10 @@ const Context = (props) => {
       ],
       image:
         "https://media.istockphoto.com/id/1059427712/photo/the-late-teenager-boy-explaining-to-the-group-of-kids-and-adults-how-the-electricity-works.jpg?s=612x612&w=0&k=20&c=NuUym1wYmdpN15b0M0CmjaFKWEYKYR2zr4KHURIhyX4=",
-      timing: "3:00 PM - 6:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
-      coordinator: "Harsh Goyal",
+      coordinator:
+        "Contact our coordinators, Shryesh (9034967083) and Mudit (9468227175), for any queries.",
       team_size: 2,
     },
     {
@@ -96,9 +100,10 @@ const Context = (props) => {
       ],
       image:
         "https://media.istockphoto.com/id/1493711508/photo/asian-woman-graphic-designer-concentrate-on-working-in-offices-at-night.jpg?s=2048x2048&w=is&k=20&c=CjFwpYdvkII78RVBcZ97ZUVG2Rq55EHZSNxW9qYIX70=",
-      timing: "3:00 PM - 6:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
-      coordinator: "Harsh Goyal",
+      coordinator:
+        "Contact our coordinators, Garvit (9350026513), for any queries.",
       team_size: 2,
     },
     {
@@ -111,9 +116,10 @@ const Context = (props) => {
       ],
       image:
         "https://www.consultantsreview.com/newstransfer/upload/6l6gtrsz_83105515-dizain-advertising.jpg",
-      timing: "3:00 PM - 6:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
-      coordinator: "Harsh Goyal",
+      coordinator:
+        "Contact our coordinators, Harsh (9996923353), for any queries.",
       team_size: 2,
     },
     {
@@ -125,9 +131,10 @@ const Context = (props) => {
       ],
       image:
         "https://okcredit-blog-images-prod.storage.googleapis.com/2020/12/startupidea4.jpg",
-      timing: "3:00 PM - 6:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
-      coordinator: "Harsh Goyal",
+      coordinator:
+        "Contact our coordinators, Anmol (9728405909), for any queries.",
       team_size: 2,
     },
     {
@@ -139,9 +146,10 @@ const Context = (props) => {
         "Duration of event will be 30 minutes",
       ],
       image: "https://miro.medium.com/v2/resize:fit:1144/0*XLeoYbOa9fjeCjiO",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
-      coordinator: "Harsh Goyal",
+      coordinator:
+        "Contact our coordinators, Harsh Goyal (9485518900) and Keshav (8570886181), for any queries.",
       team_size: 2,
     },
     {
@@ -152,7 +160,7 @@ const Context = (props) => {
       ],
       image:
         "https://uploads-ssl.webflow.com/615af81f65d1ab72d2969269/62efdf9840dca733692cdd48_web%20dev%20basics.jpg",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
       coordinator: "Harsh Goyal",
       team_size: 2,
@@ -169,9 +177,10 @@ const Context = (props) => {
       ],
       image:
         "https://www.sportspromedia.com/wp-content/uploads/2023/01/Esports-India-1.jpg",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
-      coordinator: "Harsh Goyal",
+      coordinator:
+        "Contact our coordinators, Paramveer (8053485953) and Sumit (8398858499), for any queries.",
       team_size: 2,
     },
     {
@@ -183,9 +192,10 @@ const Context = (props) => {
       ],
       image:
         "https://i.pinimg.com/736x/d4/d4/ee/d4d4ee8b3f45e22fa9306a1255c76d5c.jpg",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
-      coordinator: "Harsh Goyal",
+      coordinator:
+        "Contact our coordinators, Akhilesh Shekhawat (9416210194) and Anurag Seghal (8569803596), for any queries.",
       team_size: 2,
     },
     {
@@ -198,9 +208,9 @@ const Context = (props) => {
       ],
       image:
         "https://images.unsplash.com/photo-1682687982029-edb9aecf5f89?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -213,9 +223,9 @@ const Context = (props) => {
       ],
       image:
         "https://images.unsplash.com/photo-1682687982029-edb9aecf5f89?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -228,9 +238,9 @@ const Context = (props) => {
       ],
       image:
         "https://images.unsplash.com/photo-1682687982029-edb9aecf5f89?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -243,9 +253,9 @@ const Context = (props) => {
       ],
       image:
         "https://c1.wallpaperflare.com/preview/649/726/465/j-cole-music-rap-rapper.jpg",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -257,9 +267,9 @@ const Context = (props) => {
         "The time allotted for the event is minimum 3 minutes and maximum 5 minutes.",
       ],
       image: "https://pbs.twimg.com/media/F-Rr36QXcAAdYFg.jpg",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -271,9 +281,9 @@ const Context = (props) => {
         "The time allotted for the event is minimum 6 minutes and maximum 8 minutes.",
       ],
       image: "https://i.insider.com/59724b9cb4ec01cb168b466e?width=700",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -287,9 +297,9 @@ const Context = (props) => {
       ],
       image:
         "https://media.istockphoto.com/id/1459383811/photo/photographer-with-camera-on-tripod-at-sunset.jpg?s=612x612&w=0&k=20&c=_mxAB14gOALR3aS_znbhwH8WrQ-JqsG3HygKbWPtzVU=",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -301,9 +311,9 @@ const Context = (props) => {
       ],
       image:
         "https://media.licdn.com/dms/image/C5612AQHuCSeO_OZ3qQ/article-cover_image-shrink_720_1280/0/1596828778279?e=2147483647&v=beta&t=D7gZZh43hjmpvU3aoq5qYS2sHDb1vRsTOS6G9GPs-N4",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -316,9 +326,9 @@ const Context = (props) => {
       ],
       image:
         "https://www.pmskillindiamission.org/assets/images/skills/poster-making.webp",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -331,9 +341,9 @@ const Context = (props) => {
       ],
       image:
         "https://dnwp63qf32y8i.cloudfront.net/61611b908567a40ee273dd0be2294e24b51e0471",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -348,9 +358,9 @@ const Context = (props) => {
       ],
       image:
         "https://media.assettype.com/Prabhatkhabar%2F2022-08%2F92f726f8-3ae6-4393-8120-108fd42ba176%2Fm3.jpg",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -366,9 +376,9 @@ const Context = (props) => {
       ],
       image:
         "https://media.assettype.com/Prabhatkhabar%2F2023-11%2Ffad6d46d-efd6-4cce-b58d-4f0dac6b1e41%2Fr2__1_.jpg?auto=format%2Ccompress&w=1200",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -383,9 +393,9 @@ const Context = (props) => {
       ],
       image:
         "https://img.sheroes.in/img/uploads/sheroespage/logoes/1517993979cardboard-tube-monster.jpg",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -400,9 +410,9 @@ const Context = (props) => {
       ],
       image:
         "https://www.researchgate.net/publication/303035425/figure/fig2/AS:361302582804483@1463152656461/Collages-made-by-participants-in-the-first-collage-making-activity-experience-teaching.png",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -417,9 +427,9 @@ const Context = (props) => {
       ],
       image:
         "https://images.unsplash.com/photo-1682687982029-edb9aecf5f89?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -427,9 +437,9 @@ const Context = (props) => {
       name: "Couple Cricket",
       details: ["The event will be conducted as per rules."],
       image: "https://www.weddingsutra.com/images/cricketer_kunal_01.jpg",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "sports-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -438,9 +448,9 @@ const Context = (props) => {
       details: ["The event will be conducted as per rules."],
       image:
         "https://www.sportcal.com/wp-content/uploads/sites/32/2023/08/main64e8c3e155fce.jpg",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "sports-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -449,9 +459,9 @@ const Context = (props) => {
       details: ["The event will be conducted as per rules."],
       image:
         "https://assetsio.reedpopcdn.com/chess-playing-hand.jpeg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "sports-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
     {
@@ -460,9 +470,9 @@ const Context = (props) => {
       details: ["The event will be conducted as per rules."],
       image:
         "https://bsmedia.business-standard.com/_media/bs/img/article/2017-10/20/full/1508502526-7523.jpg",
-      timing: "7:00 PM - 10:00 PM",
+      timing: "Timings to be announced soon. Stay tuned!",
       category: "sports-events",
-      coordinator: "Harsh Goyal",
+      coordinator: "",
       team_size: 2,
     },
   ];

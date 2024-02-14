@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
+import CloseLineIcon from "remixicon-react/CloseLineIcon";
 
 // import stepTwoValidationSchema from "./StepTwoValidationSchema";
 
@@ -16,126 +17,157 @@ const StepTwo = ({
     {
       name: "Technical Quiz",
       team_size: 3,
+      category: "Technical Events",
     },
     {
       name: "Technical Debate",
       team_size: 2,
+      category: "Technical Events",
     },
     {
       name: "Management Games",
       team_size: 4,
+      category: "Technical Events",
     },
     {
       name: "On The Spot Coding",
       team_size: 1,
+      category: "Technical Events",
     },
     {
       name: "Exhibition of Projects",
       team_size: 3,
+      category: "Technical Events",
     },
     {
       name: "Logo Designing",
       team_size: 1,
+      category: "Technical Events",
     },
     {
       name: "AD Mad",
       team_size: 2,
+      category: "Cultural Events",
     },
     {
       name: "Startup Ideas",
       team_size: 3,
+      category: "Technical Events",
     },
     {
       name: "Group Discussion",
       team_size: 3,
+      category: "Technical Events",
     },
     {
       name: "App & Web Development",
       team_size: 2,
+      category: "Technical Events",
     },
     {
       name: "E-Sports",
       team_size: 4,
+      category: "Sports Events",
     },
     {
       name: "Earning by Learning",
       team_size: 3,
+      category: "Cultural Events",
     },
     {
       name: "Solo Dance",
       team_size: 1,
+      category: "Cultural Events",
     },
     {
       name: "Duet Dance",
       team_size: 2,
+      category: "Cultural Events",
     },
     {
       name: "Group Dance",
       team_size: 6,
+      category: "Cultural Events",
     },
     {
       name: "Solo Song",
       team_size: 1,
+      category: "Cultural Events",
     },
     {
       name: "Duet Song",
       team_size: 2,
+      category: "Cultural Events",
     },
     {
       name: "Group Song",
       team_size: 6,
+      category: "Cultural Events",
     },
     {
       name: "Click the Fest (Photography)",
       team_size: 1,
+      category: "Cultural Events",
     },
     {
       name: "Mimicry",
       team_size: 1,
+      category: "Cultural Events",
     },
     {
       name: "Poster Making",
       team_size: 1,
+      category: "Cultural Events",
     },
     {
       name: "Halloween Show",
       team_size: 2,
+      category: "Cultural Events",
     },
     {
       name: "Mehendi",
       team_size: 2,
+      category: "Cultural Events",
     },
     {
       name: "Rangoli",
       team_size: 1,
+      category: "Cultural Events",
     },
     {
       name: "Best out of waste",
       team_size: 1,
+      category: "Cultural Events",
     },
     {
       name: "Collage Making",
       team_size: 1,
+      category: "Cultural Events",
     },
     {
       name: "Volta Face",
       team_size: 1,
+      category: "Cultural Events",
     },
     {
       name: "Couple Cricket",
       team_size: 1,
+      category: "Sports Events",
     },
     {
       name: "Table Tennis",
       team_size: 1,
+      category: "Sports Events",
     },
     {
       name: "Chess",
       team_size: 1,
+      category: "Sports Events",
     },
     {
       name: "Badminton",
       team_size: 1,
+      category: "Sports Events",
     },
   ];
   const [errorMessage, setErrorMessage] = useState("");
@@ -249,7 +281,13 @@ const StepTwo = ({
       );
     });
   };
-
+  const eventsByCategory = events.reduce((acc, event) => {
+    if (!acc[event.category]) {
+      acc[event.category] = [];
+    }
+    acc[event.category].push(event);
+    return acc;
+  }, {});
   return (
     <Formik
       initialValues={{ ...data, teamDetails: initialValues }}
@@ -260,59 +298,75 @@ const StepTwo = ({
         <Form>
           {/* ////////// */}
           <h2 className="text-lg font-medium mb-4">Event Details</h2>
-          <div className="flex flex-wrap gap-x-2 gap-y-1.5 mb-4">
-            {events.map((event, index) => (
-              <div
-                className="rounded-lg px-2 py-1 cursor-pointer text-sm"
-                key={index}
-                onClick={() => {
-                  setData((prevData) => ({
-                    ...prevData,
-                    selectedEvents: prevData.selectedEvents.includes(event.name)
-                      ? prevData.selectedEvents.filter(
-                          (eventName) => eventName !== event.name
+          {/* Add the code to display categories and events here */}
+          <div>
+            {Object.entries(eventsByCategory).map(([category, events]) => (
+              <div key={category}>
+                <h3 className="text-md font-medium mb-1.5">{category} -</h3>
+                <div className="flex flex-wrap gap-x-2 gap-y-1.5 mb-4">
+                  {events.map((event, index) => (
+                    <div
+                      className="rounded-lg px-2 py-1 cursor-pointer text-sm flex"
+                      key={index}
+                      onClick={() => {
+                        setData((prevData) => ({
+                          ...prevData,
+                          selectedEvents: prevData.selectedEvents.includes(
+                            event.name
+                          )
+                            ? prevData.selectedEvents.filter(
+                                (eventName) => eventName !== event.name
+                              )
+                            : [...prevData.selectedEvents, event.name],
+                          teamDetails: {
+                            ...prevData.teamDetails,
+                            [event.name]: Array(event.team_size - 1).fill({
+                              name: "",
+                              rollNo: "",
+                              phone: "",
+                            }),
+                          },
+                        }));
+                      }}
+                      style={{
+                        backgroundColor: data.selectedEvents.includes(
+                          event.name
                         )
-                      : [...prevData.selectedEvents, event.name],
-                    teamDetails: {
-                      ...prevData.teamDetails,
-                      [event.name]: Array(event.team_size - 1).fill({
-                        name: "",
-                        rollNo: "",
-                        phone: "",
-                      }),
-                    },
-                  }));
-                }}
-                style={{
-                  backgroundColor: data.selectedEvents.includes(event.name)
-                    ? "skyblue"
-                    : "transparent",
-                }}
-              >
-                {event.name}
-                {data.selectedEvents.includes(event.name) && (
-                  <span
-                    style={{ marginLeft: "5px" }}
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setData((prevData) => ({
-                        ...prevData,
-                        selectedEvents: prevData.selectedEvents.filter(
-                          (eventName) => eventName !== event.name
-                        ),
-                        teamDetails: {
-                          ...prevData.teamDetails,
-                          [event.name]: undefined,
-                        },
-                      }));
-                    }}
-                  >
-                    ❌
-                  </span>
-                )}
+                          ? "#FA7F5C"
+                          : "transparent",
+                        color: data.selectedEvents.includes(event.name)
+                          ? "white"
+                          : "black",
+                      }}
+                    >
+                      {event.name}
+                      {data.selectedEvents.includes(event.name) && (
+                        <span
+                          style={{ marginLeft: "5px" }}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setData((prevData) => ({
+                              ...prevData,
+                              selectedEvents: prevData.selectedEvents.filter(
+                                (eventName) => eventName !== event.name
+                              ),
+                              teamDetails: {
+                                ...prevData.teamDetails,
+                                [event.name]: undefined,
+                              },
+                            }));
+                          }}
+                        >
+                          <CloseLineIcon color="white" />
+                        </span>
+                      )}
+                    </div>
+                  ))}
+                </div>
               </div>
             ))}
           </div>
+          {/* ////////// */}
           {errorMessage && (
             <div className="error pb-2 text-sm text-red-500">
               {errorMessage}
@@ -322,7 +376,7 @@ const StepTwo = ({
           {renderTeamDetails(values)} {/* Pass values to renderTeamDetails */}
           <div className="flex flex-col gap-1.5">
             <button
-              className="bg-green-600 py-2 text-white rounded-md"
+              className="bg-[#FA7F5C] py-2 text-white rounded-md"
               type="submit"
               disabled={isSubmitting || data.selectedEvents.length === 0}
             >

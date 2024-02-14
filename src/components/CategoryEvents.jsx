@@ -28,7 +28,7 @@ const CategoryEvents = () => {
       <div className="flex lg:gap-4 gap-x-3 gap-y-3 flex-wrap items-center justify-center w-full">
         {eventsInCategory.map((event, index) => (
           <Link to={`/events/${event.id}`} key={index}>
-            <div className="card w-[190px] max-[410px]:w-[165px] h-[215px] lg:w-[250px] lg:h-[250px] bg-white rounded-md shadow  overflow-hidden">
+            <div className="card w-[190px] max-[410px]:w-[165px] h-[225px] lg:w-[250px] lg:h-[250px] bg-white rounded-md shadow  overflow-hidden">
               <div className="w-full h-[120px] lg:h-[150px]">
                 <img
                   src={event.image}
@@ -37,10 +37,10 @@ const CategoryEvents = () => {
                 />
               </div>
               <div className="px-3 pt-3 lg:pt-3">
-                <h3 className="text-sm uppercase leading-4 font-[600]  lg:mb-0.5 lg:text-[15px]">
+                <h3 className="text-sm uppercase leading-4 font-[600] mb-1 lg:mb-1.5 lg:text-[15px]">
                   {event.name}
                 </h3>
-                <span className="text-xs font-medium lg:text-[13px]">
+                <span className="text-xs font-medium lg:text-[13px] leading-4 inline-block">
                   {event.timing}
                 </span>
               </div>

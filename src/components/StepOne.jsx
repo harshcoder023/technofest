@@ -46,8 +46,9 @@ const StepOne = (props) => {
         />
         <p className="mb-1 text-sm mt-3 text-gray-600">Roll No.</p>
         <Field
-          className="border w-full  py-1 px-1.5 focus:border-gray-400 outline-none"
+          className="border w-full  py-1 px-1.5 focus:border-gray-400 outline-none placeholder-gray-500 placeholder-opacity-60"
           name="rollNo"
+          placeholder="21/CS/181"
         />
         <ErrorMessage
           name="rollNo"
@@ -55,16 +56,16 @@ const StepOne = (props) => {
           className="error mt-1.5 text-xs text-red-500"
         />
         <div className="flex gap-2 pt-4">
+          <Field name="course" as="select" className="w-[50%] border py-2 px-1">
+            <option value="btech_cse">Btech CSE</option>
+            <option value="btech_ece">Btech ECE</option>
+            <option value="bca">BCA</option>
+          </Field>
           <Field name="year" as="select" className="w-[50%] border py-2 px-1">
             <option value="1">1st Year</option>
             <option value="2">2nd Year</option>
             <option value="3">3rd Year</option>
             <option value="4">4th Year</option>
-          </Field>
-          <Field name="course" as="select" className="w-[50%] border py-2 px-1">
-            <option value="btech_cse">Btech CSE</option>
-            <option value="btech_ece">Btech ECE</option>
-            <option value="bca">BCA</option>
           </Field>
         </div>
         <p className="mb-1 text-sm mt-3 text-gray-600">Phone No.</p>
@@ -90,7 +91,7 @@ const StepOne = (props) => {
           className="error mt-1.5 text-xs text-red-500"
         />
         <button
-          className="bg-green-600 py-2 text-white rounded-md inline-block w-full mt-4"
+          className="bg-[#FA7F5C] py-2 text-white rounded-md inline-block w-full mt-4"
           type="submit"
         >
           Next

@@ -25,7 +25,7 @@ const About = () => {
             data-aos="fade-right"
             className="left lg:w-1/2 bg-college h-[40vh] lg:h-[60vh] bg-cover bg-right bg-opacity-50 relative"
           >
-            <div className="absolute w-full h-full top-0 left-0 bg-black bg-opacity-50 text-white font-mont flex flex-col items-center justify-center">
+            <div className="absolute w-full h-full top-0 left-0 bg-black bg-opacity-50 text-white font-mont flex flex-col items-center justify-center gap-2">
               <div className="flex items-center">
                 <img
                   className="w-[55px] h-[55px] object-cover object-center"
@@ -75,7 +75,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="min-h-[85vh] bg-[#0e1538] py-12 text-white">
+      <div className="min-h-[85vh] bg-[#0e1538] py-24 text-white">
         <div className="container max-w-screen-lg mx-auto px-4 lg:px-0">
           <div className="px-2">
             <h2
