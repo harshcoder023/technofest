@@ -54,7 +54,7 @@ const About = () => {
             className="right lg:w-1/2 font-mont  pt-8 px-3 lg:pt-4"
           >
             <h3 className="text-xl font-bold uppercase text-[#232b2b]">
-              About TechnoFest
+              About Techno-Management Fest 2024
             </h3>
             <p className="font-sans text-md mt-2">
               Welcome to TechnoFest, the premier fest hosted by Vaish College of
