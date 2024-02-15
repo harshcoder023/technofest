@@ -11,7 +11,7 @@ const Team = () => {
     {
       name: "Siddharth Tayal",
       image:
-        "https://ibighit.com/bts/images/profile/proof/member/member-jk.jpg",
+        "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg",
       social:
         "https://www.linkedin.com/in/siddharth-tayal-65203a266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
