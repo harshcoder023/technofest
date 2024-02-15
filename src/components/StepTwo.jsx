@@ -306,7 +306,7 @@ const StepTwo = ({
                 <div className="flex flex-wrap gap-x-2 gap-y-1.5 mb-4">
                   {events.map((event, index) => (
                     <div
-                      className="rounded-lg px-2 py-1 cursor-pointer text-sm flex"
+                      className="rounded-lg px-2 py-1 cursor-pointer text-sm flex items-center"
                       key={index}
                       onClick={() => {
                         setData((prevData) => ({
