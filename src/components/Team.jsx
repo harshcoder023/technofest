@@ -7,6 +7,7 @@ import Harsh from "../assets/harsh.jpg";
 import Sahil from "../assets/sahil.jpg";
 import Yash from "../assets/yash.jpg";
 import Tushar from "../assets/tushar.jpg";
+import Anmol from "../assets/anmol.jpg";
 const Team = () => {
   const teamMembers = [
     {
@@ -31,8 +32,7 @@ const Team = () => {
     },
     {
       name: "Anmol",
-      image:
-        "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.9092553.1705229888&semt=sph",
+      image: Anmol,
       social: "https://www.instagram.com/anmol_._ahuja/",
       class: "B.Tech CSE 3rd Year",
     },
@@ -128,17 +128,21 @@ const Team = () => {
                     src={member.image}
                     alt=""
                     className={`w-full h-full object-cover  ${
-                      index == 1 || index == 7 || index == 0
+                      index == 1 ||
+                      index == 7 ||
+                      index == 0 ||
+                      index == 5 ||
+                      index == 3
                         ? "object-top"
                         : "object-center"
                     }`}
                   />
                 </div>
 
-                <h3 className="font-mont text-md font-semibold text-center leading-5 mt-4 mb-2">
+                <h3 className="font-mont text-md font-semibold text-center leading-5 mt-4 md:mb-2 mb-1">
                   {member.name}
                 </h3>
-                <h4 className="text-[13px] text-black text-center font-medium">
+                <h4 className="text-[13px] text-black text-center font-medium text-nowrap">
                   {member.class}
                 </h4>
               </div>
