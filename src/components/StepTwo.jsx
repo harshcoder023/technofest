@@ -16,7 +16,7 @@ const StepTwo = ({
   const events = [
     {
       name: "Technical Quiz",
-      team_size: 3,
+      team_size: 1,
       category: "Technical Events",
     },
     {
