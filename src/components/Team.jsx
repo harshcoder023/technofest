@@ -58,14 +58,14 @@ const Team = () => {
       class: "B.Tech CSE 2nd Year",
     },
     {
-      name: "Shreysh",
+      name: "Shreyash",
       image: Shreysh,
       social:
         "https://www.linkedin.com/in/shreyashgupta14?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       class: "B.Tech CSE 3rd Year",
     },
     {
-      name: "Yash",
+      name: "Yashmit",
       image: Yash,
       social:
         "https://www.linkedin.com/in/yashmit-narang-87a68626a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -104,10 +104,10 @@ const Team = () => {
                 <span className="font-sans inline-block text-xs px-2 py-1 text-white font-medium rounded-lg bg-[#FA7F5C]">
                   Lead Mentor
                 </span>
-                <h3 className="font-mont text-2xl max-[410px]:text-xl  font-medium mt-1">
+                <h3 className="font-mont text-2xl max-[410px]:text-lg  font-medium mt-1">
                   Mr. Alok Gupta
                 </h3>
-                <span className="font-sans inline-block text-md font-medium">
+                <span className="font-sans inline-block text-md max-[410px]:text-sm font-medium">
                   AP, CSE
                 </span>
               </div>
@@ -139,7 +139,7 @@ const Team = () => {
                   />
                 </div>
 
-                <h3 className="font-mont text-md font-semibold text-center leading-5 mt-4 md:mb-2 mb-1">
+                <h3 className="font-mont text-md font-semibold text-center leading-5 mt-4 md:mb-2 mb-1 text-nowrap">
                   {member.name}
                 </h3>
                 <h4 className="text-[13px] text-black text-center font-medium text-nowrap">
