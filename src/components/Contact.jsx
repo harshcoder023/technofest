@@ -110,6 +110,10 @@ const Contact = () => {
               </h4>
             </div>
             <div className="lg:hidden">
+              <h4 className="flex font-light items-center gap-2 text-[15px]">
+                <PhoneFillIcon color="#fff" size={16} />
+                <a href="tel:9416657744"> Dr. Sanjay Jindal</a>
+              </h4>
               <h4 className="flex font-light items-center gap-2 text-[14px]">
                 <PhoneFillIcon color="#fff" size={16} />
                 <a href="tel:7419293392">Niyati Jain</a>
@@ -126,10 +130,7 @@ const Contact = () => {
                 <PhoneFillIcon color="#fff" size={16} />
                 <a href="tel:9812066800"> Alok Gupta</a>
               </h4>
-              <h4 className="flex font-light items-center gap-2 text-[15px]">
-                <PhoneFillIcon color="#fff" size={16} />
-                <a href="tel:9416657744"> Dr. Sanjay Jindal</a>
-              </h4>
+
               <h4 className="flex font-light items-center gap-2 text-[15px]">
                 <PhoneFillIcon color="#fff" size={16} />
                 <a href="tel:9034458153"> Akhil</a>
@@ -141,7 +142,9 @@ const Contact = () => {
             <div>
               <h4 className="flex font-light items-center gap-2 text-[15px]">
                 <InstagramFillIcon color="#fff" size={16} />
-                <a href="">vcefest</a>
+                <a href="https://www.instagram.com/vcefest/" target="_blank">
+                  vcefest
+                </a>
               </h4>
             </div>
           </div>

@@ -15,7 +15,7 @@ const stepOneValidationSchema = Yup.object().shape({
     .required("Phone number is required"),
   fullName: Yup.string()
     .matches(
-      /^[A-Za-z]+(?:\s+[A-Za-z]+)*$/,
+      /^[A-Za-z\s]*$/,
       "Name cannot contain numbers or special characters."
     )
     .required("Name is required"),

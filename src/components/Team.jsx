@@ -104,7 +104,7 @@ const Team = () => {
                 <span className="font-sans inline-block text-xs px-2 py-1 text-white font-medium rounded-lg bg-[#FA7F5C]">
                   Lead Mentor
                 </span>
-                <h3 className="font-mont text-2xl max-[410px]:text-lg  font-medium mt-1">
+                <h3 className="font-mont text-xl max-[410px]:text-lg  font-medium mt-1">
                   Mr. Alok Gupta
                 </h3>
                 <span className="font-sans inline-block text-md max-[410px]:text-sm font-medium">
@@ -139,7 +139,7 @@ const Team = () => {
                   />
                 </div>
 
-                <h3 className="font-mont text-md font-semibold text-center leading-5 mt-4 md:mb-2 mb-1 text-nowrap">
+                <h3 className="font-mont text-md font-semibold text-center leading-5 mt-4 mb-1 text-nowrap">
                   {member.name}
                 </h3>
                 <h4 className="text-[13px] text-black text-center font-medium text-nowrap">
