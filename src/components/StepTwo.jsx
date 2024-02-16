@@ -315,10 +315,10 @@ const StepTwo = ({
       {({ values, isSubmitting }) => (
         <Form>
           {/* ////////// */}
-          <h2 className="text-lg font-medium mb-4">Event Details</h2>
-          <h3 className="mb-1.5 bg-black text-white rounded-md px-1.5 py-1">
+          <h2 className="text-lg font-medium mb-2 mt-16">Event Details</h2>
+          <h3 className="mb-1.5 bg-gray-700 text-white rounded-md px-1.5 py-1">
             For any queries, feel free to send a message or call us at{" "}
-            <a href="tel:7082560028">7082560028</a>.
+            <a href="tel:9812314747">9812314747</a>.
           </h3>
           {/* Add the code to display categories and events here */}
           <div>

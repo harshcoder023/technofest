@@ -208,8 +208,7 @@ const Context = (props) => {
         "The theme should not be offensive.",
         "The time allotted for the event is minimum 4 minutes and maximum 6 minutes.",
       ],
-      image:
-        "https://images.unsplash.com/photo-1682687982029-edb9aecf5f89?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8",
+      image: "https://i.ytimg.com/vi/pxeSbjYM90A/maxresdefault.jpg",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
       coordinator: "",
@@ -224,7 +223,7 @@ const Context = (props) => {
         "The time allotted for the event is minimum 4 minutes and maximum 6 minutes.",
       ],
       image:
-        "https://images.unsplash.com/photo-1682687982029-edb9aecf5f89?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8",
+        "https://cdn.create.vista.com/api/media/small/387224522/stock-video-duet-two-young-women-performing-contemporary-dance-dancehall-twerk-building?videoStaticPreview=true&token=",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
       coordinator: "",
