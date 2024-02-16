@@ -224,7 +224,7 @@ const StepTwo = ({
       if (!teamSize || teamSize === 1) return null;
 
       const memberFields = [];
-      const numTeamMembers = teamSize - 1;
+      const numTeamMembers = teamSize;
 
       for (let i = 0; i < numTeamMembers; i++) {
         memberFields.push(

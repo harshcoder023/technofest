@@ -55,7 +55,8 @@ const Context = (props) => {
         "https://img.freepik.com/free-photo/friends-together-play-board-games-table-football_146671-15405.jpg?size=626&ext=jpg&ga=GA1.1.9092553.1705229888&semt=ais",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
-      coordinator: "Harsh Goyal",
+      coordinator:
+        "Contact our coordinator, Harsh Goyal (9485518900), for any queries.",
       team_size: 2,
     },
     {
@@ -162,7 +163,8 @@ const Context = (props) => {
         "https://uploads-ssl.webflow.com/615af81f65d1ab72d2969269/62efdf9840dca733692cdd48_web%20dev%20basics.jpg",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
-      coordinator: "Harsh Goyal",
+      coordinator:
+        "Contact our coordinator, Harsh Goyal (9485518900), for any queries.",
       team_size: 2,
     },
     {
@@ -236,8 +238,7 @@ const Context = (props) => {
         "The theme should not be offensive.",
         "The time allotted for the event is minimum 6 minutes and maximum 8 minutes.",
       ],
-      image:
-        "https://images.unsplash.com/photo-1682687982029-edb9aecf5f89?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8",
+      image: "https://i.ytimg.com/vi/vBV5GBEbf1A/maxresdefault.jpg",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
       coordinator: "",
