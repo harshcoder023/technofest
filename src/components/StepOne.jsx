@@ -19,6 +19,7 @@ const stepOneValidationSchema = Yup.object().shape({
       "Name cannot contain numbers or special characters."
     )
     .required("Name is required"),
+  college: Yup.string().required("College Name is required"),
 });
 
 const StepOne = (props) => {
@@ -50,8 +51,19 @@ const StepOne = (props) => {
           name="rollNo"
           placeholder="21/CS/181"
         />
+
         <ErrorMessage
           name="rollNo"
+          component="div"
+          className="error mt-1.5 text-xs text-red-500"
+        />
+        <p className="mb-1 text-sm mt-3 text-gray-600">College</p>
+        <Field
+          className="border w-full  py-1 px-1.5 focus:border-gray-400 outline-none "
+          name="college"
+        />
+        <ErrorMessage
+          name="college"
           component="div"
           className="error mt-1.5 text-xs text-red-500"
         />

@@ -12,6 +12,7 @@ const MultiStepForm = () => {
   const [data, setData] = useState({
     fullName: "",
     rollNo: "",
+    college: "",
     year: "1",
     course: "Btech CSE",
     phoneNo: "",
