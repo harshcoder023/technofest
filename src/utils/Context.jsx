@@ -336,8 +336,12 @@ const Context = (props) => {
       name: "Halloween / Bollywood Show",
       details: [
         "This event can have participant combination (either one or two).",
-        "The duration of the event will be minimum 2 minutes and maximum 4 minutes.",
-        "The act must not be offensive.",
+        "Participants will showcase their style and confidence in the ramp walk segment.",
+        "Selected teams will progress to the next round.",
+        "Two teams will be randomly paired to create a movie scene or act.",
+        "Top 3 acts, chosen by judges, will be the winners.",
+        "Performances must be captivating and entertaining.",
+        "The duration of each act should be between 2 to 4 minutes.",
       ],
       image:
         "https://dnwp63qf32y8i.cloudfront.net/61611b908567a40ee273dd0be2294e24b51e0471",
@@ -426,7 +430,7 @@ const Context = (props) => {
         "Dermatologically safe colors are to be used.",
       ],
       image:
-        "https://images.unsplash.com/photo-1682687982029-edb9aecf5f89?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8",
+        "https://i.ytimg.com/vi/UpbPOQMHo-4/maxresdefault.jpg",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
       coordinator: "",
@@ -435,7 +439,16 @@ const Context = (props) => {
     {
       id: 27,
       name: "Couple Cricket",
-      details: ["The event will be conducted as per rules."],
+      details: 
+      [
+      "Couple cricket teams consist of one male and one female player.",
+      "Matches consist of two overs per team.",
+      "Each player participates in both overs.",
+      "Two runs will be deducted for every out (run out, catch, bowled, etc.).",
+      "Male participants must bat and bowl with their non-natural hand.",
+      "Female participants bowl to male players, and male participants bowl to female players.",
+      "Male participants are not allowed to reverse bat."
+      ],
       image: "https://www.weddingsutra.com/images/cricketer_kunal_01.jpg",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "sports-events",

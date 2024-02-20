@@ -18,7 +18,7 @@ const About = () => {
           // data-aos="fade-top"
           className=" text-[#232b2b] font-mont text-3xl font-[800] uppercase text-center mb-7 lg:text-3xl lg:font-semibold lg:mb-12"
         >
-          About hii
+          About
         </h2>
         <div className="container max-w-screen-lg mx-auto px-3 lg:px-0 lg:flex lg:gap-4">
           <div
