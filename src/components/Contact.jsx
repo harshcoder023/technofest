@@ -4,6 +4,7 @@ import Data from "../animations/Animation - 1707033212018.json";
 import PhoneFillIcon from "remixicon-react/PhoneFillIcon";
 import PhoneLineIcon from "remixicon-react/PhoneLineIcon";
 import InstagramFillIcon from "remixicon-react/InstagramFillIcon";
+import PagesLineIcon from "remixicon-react/PagesLineIcon"
 const Contact = () => {
   const defaultOptions = {
     loop: true,
@@ -144,6 +145,18 @@ const Contact = () => {
                 <InstagramFillIcon color="#fff" size={16} />
                 <a href="https://www.instagram.com/vcefest/" target="_blank">
                   vcefest
+                </a>
+              </h4>
+              <h4 className="flex font-light items-center gap-2 text-[15px]">
+                <InstagramFillIcon color="#fff" size={16} />
+                <a href="https://www.instagram.com/vcertkofficial/" target="_blank">
+                  vcertkofficial
+                </a>
+              </h4>
+              <h4 className="flex font-light items-center gap-2 text-[15px]">
+                <PagesLineIcon color="#fff" size={16} />
+                <a href="https://vcertk.com/" target="_blank">
+                  vcertk
                 </a>
               </h4>
             </div>
