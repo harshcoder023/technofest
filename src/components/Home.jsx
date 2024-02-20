@@ -36,7 +36,7 @@ const Home = () => {
             Techno<span className="text-[#FA7F5C]">fest</span>
           </h1>
           <span className="text-[16px] lg:text-xl font-medium uppercase mt-2">
-            28 Feb - 1 March
+            28 Feb - 1 Mar, 8 AM to 8 PM
           </span>
           <p className="text-[16px] w-full text-center pt-4 pb-6 lg:text-xl">
             <Typewriter

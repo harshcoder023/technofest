@@ -23,13 +23,13 @@ const StepTwo = ({
       name: "Technical Debate",
       team_size: 2,
       category: "Technical Events",
-      teamRule: "Teams for this event must consist of 2 members.",
+      teamRule: "Teams for this event must consist of 2 members❗",
     },
     {
       name: "Management Games",
       team_size: 4,
       category: "Technical Events",
-      teamRule: "Teams for this event must consist of either 3 or 4 members.",
+      teamRule: "Teams for this event must consist of either 3 or 4 members❗",
     },
     {
       name: "On The Spot Coding",
@@ -40,7 +40,7 @@ const StepTwo = ({
       name: "Exhibition of Projects",
       team_size: 3,
       category: "Technical Events",
-      teamRule: "Teams for this event must consist of 3 members.",
+      teamRule: "Teams for this event must consist of 3 members❗",
     },
     {
       name: "Logo Designing",
@@ -51,37 +51,37 @@ const StepTwo = ({
       name: "AD Mad",
       team_size: 2,
       category: "Technical Events",
-      teamRule: "Teams for this event must consist of 2 members.",
+      teamRule: "Teams for this event must consist of 2 members❗",
     },
     {
       name: "Startup Ideas",
       team_size: 3,
       category: "Technical Events",
-      teamRule: "Teams for this event must consist of either 2 or 3 members.",
+      teamRule: "Teams for this event must consist of either 2 or 3 members❗",
     },
     {
       name: "Group Discussion",
       team_size: 3,
       category: "Technical Events",
-      teamRule: "Teams for this event must consist of 3 members.",
+      teamRule: "Teams for this event must consist of 3 members❗",
     },
     {
       name: "App & Web Development",
       team_size: 2,
       category: "Technical Events",
-      teamRule: "Teams for this event must consist of either 1 or 2 members.",
+      teamRule: "Teams for this event must consist of either 1 or 2 members❗",
     },
     {
       name: "E-Sports",
       team_size: 4,
       category: "Technical Events",
-      teamRule: "Teams for this event must consist of 2 to 4 members.",
+      teamRule: "Teams for this event must consist of 2 to 4 members❗",
     },
     {
       name: "Earning by Learning",
       team_size: 3,
       category: "Technical Events",
-      teamRule: "Teams for this event must consist of 1 to 3 members.",
+      teamRule: "Teams for this event must consist of 1 to 3 members❗",
     },
     {
       name: "Solo Dance",
@@ -92,13 +92,13 @@ const StepTwo = ({
       name: "Duet Dance",
       team_size: 2,
       category: "Cultural Events",
-      teamRule: "Teams for this event must consist of 2 members.",
+      teamRule: "Teams for this event must consist of 2 members❗",
     },
     {
       name: "Group Dance",
       team_size: 6,
       category: "Cultural Events",
-      teamRule: "Teams for this event must consist of 3 to 6 members.",
+      teamRule: "Teams for this event must consist of 3 to 6 members❗",
     },
     {
       name: "Solo Song",
@@ -109,13 +109,13 @@ const StepTwo = ({
       name: "Duet Song",
       team_size: 2,
       category: "Cultural Events",
-      teamRule: "Teams for this event must consist of 2 members.",
+      teamRule: "Teams for this event must consist of 2 members❗",
     },
     {
       name: "Group Song",
       team_size: 6,
       category: "Cultural Events",
-      teamRule: "Teams for this event must consist of 3 to 6 members.",
+      teamRule: "Teams for this event must consist of 3 to 6 members❗",
     },
     {
       name: "Click the Fest (Photography)",
@@ -136,13 +136,13 @@ const StepTwo = ({
       name: "Halloween Show",
       team_size: 2,
       category: "Cultural Events",
-      teamRule: "Teams for this event must consist of either 1 or 2 members.",
+      teamRule: "Teams for this event must consist of either 1 or 2 members❗",
     },
     {
       name: "Mehendi",
       team_size: 2,
       category: "Cultural Events",
-      teamRule: "Teams for this event must consist of 2 members.",
+      teamRule: "Teams for this event must consist of 2 members❗",
     },
     {
       name: "Rangoli",
@@ -251,8 +251,6 @@ const StepTwo = ({
                 validate={(value) => {
                   if (!value) {
                     return "Roll No. is required.";
-                  } else if (!/^[A-Za-z0-9]+\/[A-Za-z0-9]+\/\d+$/.test(value)) {
-                    return "Invalid roll number format";
                   }
                 }}
               />
@@ -292,8 +290,17 @@ const StepTwo = ({
           <h3 className=" font-[500]">
             {eventName} <span className="text-sm">(Team Details)</span>
           </h3>
-
-          <h4 className="text-[15px]">{event.teamRule}</h4>
+          <div className="flex gap-2">
+            <p className="font-medium">Requirement -</p>
+            <h4 className="text-[15px]">{event.teamRule}</h4>
+          </div>
+          <p className="text-[15px] mt-2">
+            Ensure your team size meets the specific requirements. Provide data
+            for your team members accordingly. For other fields, use the
+            following dummy data: Name: <span className="font-medium">abc</span>
+            , Roll No.: <span className="font-medium">1/1/1</span>, Phone No.:{" "}
+            <span className="font-medium">0000000000</span>.
+          </p>
           <div className="pt-4 pb-2.5">{memberFields}</div>
         </div>
       );
@@ -316,12 +323,12 @@ const StepTwo = ({
         <Form>
           {/* ////////// */}
           <h2 className="text-lg font-medium mb-2 mt-16">Event Details</h2>
-          <h3 className="mb-1.5 bg-gray-700 text-white rounded-md px-1.5 py-1">
+          <h3 className="mb-3  bg-gray-700 text-white rounded-md px-1.5 py-1">
             For any queries, feel free to send a message or call us at{" "}
-            <a href="tel:9812314747">9812314747</a>.
+            <a href="tel:9812314747">9485518900</a>.
           </h3>
           {/* Add the code to display categories and events here */}
-          <div>
+          <div className="border-y pt-3">
             {Object.entries(eventsByCategory).map(([category, events]) => (
               <div key={category}>
                 <h3 className="text-md font-medium mb-1.5">{category} -</h3>
@@ -394,21 +401,6 @@ const StepTwo = ({
               {errorMessage}
             </div>
           )}
-          <div className="border-y py-4">
-            <h2 className="mb-1 font-medium">
-              Guidelines for Team Size and Entry:
-            </h2>
-            <p className="text-[15px]">
-              For example, let's consider the event "Group Dance" where the team
-              size must be between 3 to 6 members. If you have, say, 4 members,
-              fill the data for those 4 members. For the remaining fields, use
-              this dummy data:
-              <p className="mt-1">
-                {" "}
-                Name: abc <br /> Roll No.: 1/1/1 <br /> Phone No.: 0000000000
-              </p>
-            </p>
-          </div>
           {/* ////////// */}
           {renderTeamDetails(values)} {/* Pass values to renderTeamDetails */}
           <div className="flex flex-col gap-1.5">

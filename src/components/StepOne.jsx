@@ -4,12 +4,7 @@ import * as Yup from "yup";
 
 const stepOneValidationSchema = Yup.object().shape({
   email: Yup.string().email("Invalid email").required("Email is required"),
-  rollNo: Yup.string()
-    .matches(
-      /^[A-Za-z0-9]+\/[A-Za-z0-9]+\/\d+$/,
-      "Please enter the correct Roll No."
-    )
-    .required("Roll No. is required"),
+  rollNo: Yup.string().required("Roll No. is required"),
   phoneNo: Yup.string()
     .matches(/^\d{10}$/, "Phone number must be 10 digits")
     .required("Phone number is required"),
