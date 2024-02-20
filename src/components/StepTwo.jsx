@@ -290,11 +290,11 @@ const StepTwo = ({
           <h3 className=" font-[500]">
             {eventName} <span className="text-sm">(Team Details)</span>
           </h3>
-          <div className="flex gap-2">
-            <p className="font-medium">Requirement -</p>
-            <h4 className="text-[15px]">{event.teamRule}</h4>
+          <div className="">
+            <span className="font-medium">Requirement -</span>
+            <span className="text-[15px]">{event.teamRule}</span>
           </div>
-          <p className="text-[15px] mt-2">
+          <p className="text-[15px] mt-2 border-t pt-2">
             Ensure your team size meets the specific requirements. Provide data
             for your team members accordingly. For other fields, use the
             following dummy data: Name: <span className="font-medium">abc</span>
