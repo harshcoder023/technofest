@@ -40,7 +40,7 @@ const Context = (props) => {
       timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
       coordinator:
-        "Contact our coordinators, Nimit Shekhawat (9467015594) and Chhavi Kapoor (9991074299), for any queries.",
+        "Contact our coordinators, Chhavi Kapoor (9991074299), for any queries.",
       team_size: 2,
     },
     // Sports Events
@@ -50,13 +50,14 @@ const Context = (props) => {
       details: [
         "A single team comprising of either three or four participants",
         "Duration of event will be 01:30 hours.",
+        "Games will be Disclosed when the event start.",
       ],
       image:
         "https://img.freepik.com/free-photo/friends-together-play-board-games-table-football_146671-15405.jpg?size=626&ext=jpg&ga=GA1.1.9092553.1705229888&semt=ais",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
       coordinator:
-        "Contact our coordinator, Harsh Goyal (9485518900), for any queries.",
+        "Contact our coordinator, Nikita (9034440408), for any queries.",
       team_size: 2,
     },
     {
@@ -73,7 +74,7 @@ const Context = (props) => {
       timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
       coordinator:
-        "Contact our coordinators, Siddharth (8813055897), for any queries.",
+        "Contact our coordinators, Siddharth Tayal (8813055897) and Garvit (9350026513), for any queries.",
       team_size: 2,
     },
     // Cultural Events
@@ -89,7 +90,7 @@ const Context = (props) => {
       timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
       coordinator:
-        "Contact our coordinators, Shryesh (9034967083) and Mudit (9468227175), for any queries.",
+        "Contact our coordinators, Shreyash Gupta (9034967083) and Saurav (9034967083), for any queries.",
       team_size: 2,
     },
     {
@@ -104,7 +105,7 @@ const Context = (props) => {
       timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
       coordinator:
-        "Contact our coordinators, Garvit (9350026513), for any queries.",
+        "Contact our coordinators, Vrinda (8278910121) and Liza (9999368800), for any queries.",
       team_size: 2,
     },
     {
@@ -120,7 +121,7 @@ const Context = (props) => {
       timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
       coordinator:
-        "Contact our coordinators, Harsh (9996923353), for any queries.",
+        "Contact our coordinators, Akhilesh (9416210194) and Aman (9729193643), for any queries.",
       team_size: 2,
     },
     {
@@ -135,7 +136,7 @@ const Context = (props) => {
       timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
       coordinator:
-        "Contact our coordinators, Anmol (9728405909), for any queries.",
+        "Contact our coordinators, Anmol (9728405909) and Sahil (9729592295), for any queries.",
       team_size: 2,
     },
     {
@@ -164,7 +165,7 @@ const Context = (props) => {
       timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
       coordinator:
-        "Contact our coordinator, Harsh Goyal (9485518900), for any queries.",
+        "Contact our coordinator, Garvit (9350026513), for any queries.",
       team_size: 2,
     },
     {
@@ -197,7 +198,7 @@ const Context = (props) => {
       timing: "Timings to be announced soon. Stay tuned!",
       category: "technical-events",
       coordinator:
-        "Contact our coordinators, Akhilesh Shekhawat (9416210194) and Anurag Seghal (8569803596), for any queries.",
+        "Contact our coordinators, Deepanshi (981780672) and Anurag Seghal (8569803596), for any queries.",
       team_size: 2,
     },
     {
@@ -211,7 +212,7 @@ const Context = (props) => {
       image: "https://i.ytimg.com/vi/pxeSbjYM90A/maxresdefault.jpg",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Contact our coordinators, Sejal Jain (9711796936) and Harshita (8398909722), for any queries.",
+      coordinator: "Contact our coordinators, Sejal Jain (9711796936) and Amit (8199886968), for any queries.",
       team_size: 2,
     },
     {
@@ -226,7 +227,7 @@ const Context = (props) => {
         "https://cdn.create.vista.com/api/media/small/387224522/stock-video-duet-two-young-women-performing-contemporary-dance-dancehall-twerk-building?videoStaticPreview=true&token=",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Contact our coordinators, Kirti (83007592283) and Rishita Gupta (7206051716), for any queries.",
+      coordinator: "Contact our coordinators, Sejal Jain (9711796936) and Lakshay (9817514185), for any queries.",
       team_size: 2,
     },
     {
@@ -240,7 +241,7 @@ const Context = (props) => {
       image: "https://i.ytimg.com/vi/vBV5GBEbf1A/maxresdefault.jpg",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Contact our coordinators, Vinay (8708618907) and Ashish (8397841590), for any queries.",
+      coordinator: "Contact our coordinators, Dipanshi (9817810672) and Gargi (9416517692), for any queries.",
       team_size: 2,
     },
     {
@@ -255,7 +256,7 @@ const Context = (props) => {
         "https://c1.wallpaperflare.com/preview/649/726/465/j-cole-music-rap-rapper.jpg",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Contact our coordinators, Alok Verma (8685983947) and Sejal Jain (9711796936), for any queries.",
+      coordinator: "Contact our coordinators, Ashish (8397841590) and Vinay (8708618907), for any queries.",
       team_size: 2,
     },
     {
@@ -269,7 +270,7 @@ const Context = (props) => {
       image: "https://pbs.twimg.com/media/F-Rr36QXcAAdYFg.jpg",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Contact our coordinators, Alok Verma (8685983947) and Sejal Jain (9711796936), for any queries.",
+      coordinator: "Contact our coordinators, Akshat Bansal (8571871506) and Liza (9999368800), for any queries.",
       team_size: 2,
     },
     {
@@ -283,7 +284,7 @@ const Context = (props) => {
       image: "https://i.insider.com/59724b9cb4ec01cb168b466e?width=700",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Contact our coordinators, Akshat Bansal (8571871506) and Sejal Jain (9711796936), for any queries.",
+      coordinator: "Contact our coordinators, Akshat Bansal (8571871506) and Chhavi Kapoor (9991074299), for any queries.",
       team_size: 2,
     },
     {
@@ -299,7 +300,7 @@ const Context = (props) => {
         "https://media.istockphoto.com/id/1459383811/photo/photographer-with-camera-on-tripod-at-sunset.jpg?s=612x612&w=0&k=20&c=_mxAB14gOALR3aS_znbhwH8WrQ-JqsG3HygKbWPtzVU=",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Contact our coordinators, Arpit (8053959512), for any queries.",
+      coordinator: "Contact our coordinators, Arpit (8053959512) and keshav (8570885181) for any queries.",
       team_size: 2,
     },
     {
@@ -313,7 +314,7 @@ const Context = (props) => {
         "https://media.licdn.com/dms/image/C5612AQHuCSeO_OZ3qQ/article-cover_image-shrink_720_1280/0/1596828778279?e=2147483647&v=beta&t=D7gZZh43hjmpvU3aoq5qYS2sHDb1vRsTOS6G9GPs-N4",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "",
+      coordinator: "Contact our coordinators, Himanshu (8708864478) , for any queries.",
       team_size: 2,
     },
     {
@@ -328,7 +329,7 @@ const Context = (props) => {
         "https://www.pmskillindiamission.org/assets/images/skills/poster-making.webp",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "",
+      coordinator: "Contact our coordinators, Amit (8199886968) and Anchal (9817849677) for any queries.",
       team_size: 2,
     },
     {
@@ -347,7 +348,7 @@ const Context = (props) => {
         "https://dnwp63qf32y8i.cloudfront.net/61611b908567a40ee273dd0be2294e24b51e0471",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Contact our coordinators, Harsh Goyal (9485518900), for any queries.",
+      coordinator: "Contact our coordinators, Himanshu (8708864478) and Bhavya (9034631423) for any queries.",
       team_size: 2,
     },
     {
@@ -364,7 +365,7 @@ const Context = (props) => {
         "https://media.assettype.com/Prabhatkhabar%2F2022-08%2F92f726f8-3ae6-4393-8120-108fd42ba176%2Fm3.jpg",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "",
+      coordinator: "Contact our coordinators, Simran (7495069520) and Divya (9306614349) for any queries.",
       team_size: 2,
     },
     {
@@ -382,7 +383,7 @@ const Context = (props) => {
         "https://media.assettype.com/Prabhatkhabar%2F2023-11%2Ffad6d46d-efd6-4cce-b58d-4f0dac6b1e41%2Fr2__1_.jpg?auto=format%2Ccompress&w=1200",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Contact our coordinators, Simran (7495069520) and Divya (9306614349), for any queries.",
+      coordinator: "Contact our coordinators, Simran (7495069520) and Divya (9306614349) for any queries.",
       team_size: 2,
     },
     {
@@ -399,7 +400,7 @@ const Context = (props) => {
         "https://img.sheroes.in/img/uploads/sheroespage/logoes/1517993979cardboard-tube-monster.jpg",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Contact our coordinators, Simran (7495069520) and Divya (9306614349), for any queries.",
+      coordinator: "Contact our coordinators, Simran (7495069520) and Divya (9306614349) for any queries.",
       team_size: 2,
     },
     {
@@ -416,7 +417,7 @@ const Context = (props) => {
         "https://www.researchgate.net/publication/303035425/figure/fig2/AS:361302582804483@1463152656461/Collages-made-by-participants-in-the-first-collage-making-activity-experience-teaching.png",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "Contact our coordinators, Simran (7495069520) and Divya (9306614349), for any queries.",
+      coordinator: "Contact our coordinators, Simran (7495069520) and Divya (9306614349) for any queries.",
       team_size: 2,
     },
     {
@@ -433,11 +434,37 @@ const Context = (props) => {
         "https://i.ytimg.com/vi/UpbPOQMHo-4/maxresdefault.jpg",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
-      coordinator: "",
+      coordinator: "Contact our coordinators, Bhavya (9034631423), for any queries.",
       team_size: 2,
     },
     {
       id: 27,
+      name: "Theatre",
+      details: [
+        "",
+      ],
+      image:
+        "https://cdn.forum-theatre.com/1663754345253.jpg",
+      timing: "Timings to be announced soon. Stay tuned!",
+      category: "cultural-events",
+      coordinator: "Contact our coordinators, Sourav (7827607138) and Tanishq (8708693695), for any queries.",
+      team_size: 2,
+    },
+    {
+      id: 28,
+      name: "Poetry",
+      details: [
+        "",
+      ],
+      image:
+        "https://th.bing.com/th/id/R.b6d0d586b5cdfd871a7fc1cca1bd2fcf?rik=%2bCp1ZBq4m66Mcw&riu=http%3a%2f%2fwww.micagallery.org%2fwp-content%2fuploads%2f2016%2f01%2fpoetry-book-reading-.jpg&ehk=5LjwQ2ZJ1fBxDbYyGyQ%2bS6Lnu8cI3YaxUV3OKp8Oxgo%3d&risl=&pid=ImgRaw&r=0",
+      timing: "Timings to be announced soon. Stay tuned!",
+      category: "cultural-events",
+      coordinator: "Contact our coordinators, Nikita (8307108663), for any queries.",
+      team_size: 2,
+    },
+    {
+      id: 29,
       name: "Couple Cricket",
       details: 
       [
@@ -452,22 +479,22 @@ const Context = (props) => {
       image: "https://www.weddingsutra.com/images/cricketer_kunal_01.jpg",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "sports-events",
-      coordinator: "Contact our coordinators, Tushar (9729366019), for any queries.",
+      coordinator: "Contact our coordinators, Tushar (John) (9729366019) and Tanyam (9728171755), for any queries.",
       team_size: 2,
     },
     {
-      id: 28,
+      id: 30,
       name: "Table Tennis",
       details: ["The event will be conducted as per rules."],
       image:
         "https://www.sportcal.com/wp-content/uploads/sites/32/2023/08/main64e8c3e155fce.jpg",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "sports-events",
-      coordinator: "Contact our coordinators, Maanik Sigma 🐷 (7497060635), for any queries.",
+      coordinator: "Contact our coordinators, Maanik Sigma 🐷 (7497060635) and Nakul (7988016446), for any queries.",
       team_size: 2,
     },
     {
-      id: 29,
+      id: 31,
       name: "Chess",
       details: ["The event will be conducted as per rules."],
       image:
@@ -478,7 +505,7 @@ const Context = (props) => {
       team_size: 2,
     },
     {
-      id: 30,
+      id: 32,
       name: "Badminton",
       details: ["The event will be conducted as per rules."],
       image:

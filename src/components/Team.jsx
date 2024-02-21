@@ -51,19 +51,20 @@ const Team = () => {
       class: "B.Tech CSE 3rd Year",
     },
     {
-      name: "Sahil",
-      image: Sahil,
-      social:
-        "https://www.linkedin.com/in/sahil-dhillon-294a05208?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      class: "B.Tech CSE 2nd Year",
-    },
-    {
       name: "Shreyash",
       image: Shreysh,
       social:
         "https://www.linkedin.com/in/shreyashgupta14?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       class: "B.Tech CSE 3rd Year",
     },
+    {
+      name: "Sahil",
+      image: Sahil,
+      social:
+        "https://www.linkedin.com/in/sahil-dhillon-294a05208?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      class: "B.Tech CSE 2nd Year",
+    },
+    
     {
       name: "Yashmit",
       image: Yash,
@@ -82,38 +83,10 @@ const Team = () => {
           Meet the team
         </h2>
         <p className="font-sans text-center ">
-          Get to know the dedicated team behind TechnoFest 2024! Comprising 7
-          passionate members, including our esteemed guide, Mr. Alok Gupta.
-          Together, we're bringing you an unforgettable event experience.
+          Get to know the dedicated team behind TechnoFest 2024! Comprising 9
+          passionate members, we're bringing you an unforgettable event experience.
         </p>
-        <div className="mentor flex justify-center w-full pt-6  ">
-          <a
-            href="https://www.linkedin.com/in/er-alok-gupta-53927bb4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            target="_blank"
-          >
-            <div className="flex  items-center lg:gap-8 gap-6 max-[410px]:gap-10 border-b-[1px] border-gray-300 pb-6 px-4">
-              <div className="image lg:w-32  w-28 lg:h-32  h-28 rounded-full overflow-hidden ">
-                <img
-                  src={Alok}
-                  alt=""
-                  className="w-full h-full object-cover object-center"
-                />
-              </div>
-
-              <div>
-                <span className="font-sans inline-block text-xs px-2 py-1 text-white font-medium rounded-lg bg-[#FA7F5C]">
-                  Lead Mentor
-                </span>
-                <h3 className="font-mont text-xl max-[410px]:text-lg  font-medium mt-1">
-                  Mr. Alok Gupta
-                </h3>
-                <span className="font-sans inline-block text-md max-[410px]:text-sm font-medium">
-                  AP, CSE
-                </span>
-              </div>
-            </div>
-          </a>
-        </div>
+        
 
         <div className="members lg:w-[85%] lg:mx-auto  flex flex-wrap gap-y-12 gap-x-24 max-[410px]:gap-x-20 lg:gap-16 justify-center pt-6">
           {teamMembers.map((member, index) => (
