@@ -73,6 +73,7 @@ const StepOne = (props) => {
             <option value="mba">MBA</option>
             <option value="mtech_cse">M.Tech CSE</option>
             <option value="mtech_ece">M.Tech ECE</option>
+            <option value="other">Other</option>
           </Field>
           <Field name="year" as="select" className="w-[50%] border py-2 px-1">
             <option value="1">1st Year</option>
