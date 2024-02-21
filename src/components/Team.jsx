@@ -8,6 +8,10 @@ import Sahil from "../assets/sahil.jpg";
 import Yash from "../assets/yash.jpg";
 import Tushar from "../assets/tushar.jpg";
 import Anmol from "../assets/anmol.jpg";
+import Tanishq from "../assets/tanishq.jpg";
+import Neha from "../assets/neha.jpg";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 const Team = () => {
   const teamMembers = [
     {
@@ -64,7 +68,7 @@ const Team = () => {
         "https://www.linkedin.com/in/sahil-dhillon-294a05208?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       class: "B.Tech CSE 2nd Year",
     },
-    
+
     {
       name: "Yashmit",
       image: Yash,
@@ -78,15 +82,46 @@ const Team = () => {
       <div className="container max-w-screen-lg mx-auto px-4 lg:px-0">
         <h2
           // data-aos="fade-top"
-          className=" text-[#232b2b] font-mont text-3xl font-[800] uppercase text-center mb-7 lg:text-3xl lg:font-semibold lg:mb-12"
+          className=" text-[#232b2b] font-mont text-3xl font-[800] uppercase text-center mb-7 lg:text-3xl lg:font-semibold lg:mb-6"
         >
           Meet the team
         </h2>
+
+        <div className="lg:w-[600px] mx-auto">
+          <Carousel
+            autoPlay
+            emulateTouch
+            infiniteLoop
+            stopOnHover
+            showArrows
+            showIndicators
+            showStatus
+            showThumbs
+            useKeyboardArrows
+            swipeable
+            interval={2000}
+            dynamicHeight
+          >
+            <div className="lg:h-[500px] h-[450px]">
+              <img src={Neha} className="h-full w-full object-cover" />
+              <p className="legend">Legend 1</p>
+            </div>
+            <div className="lg:h-[500px] h-[450px]">
+              <img src={Tanishq} className="h-full w-full object-cover" />
+              <p className="legend">Legend 2</p>
+            </div>
+            <div className="lg:h-[500px] h-[450px]">
+              <img src={Harsh} className="h-full w-full object-cover" />
+              <p className="legend">Legend 3</p>
+            </div>
+          </Carousel>
+        </div>
+
         <p className="font-sans text-center ">
           Get to know the dedicated team behind TechnoFest 2024! Comprising 9
-          passionate members, we're bringing you an unforgettable event experience.
+          passionate members, we're bringing you an unforgettable event
+          experience.
         </p>
-        
 
         <div className="members lg:w-[85%] lg:mx-auto  flex flex-wrap gap-y-12 gap-x-24 max-[410px]:gap-x-20 lg:gap-16 justify-center pt-6">
           {teamMembers.map((member, index) => (
