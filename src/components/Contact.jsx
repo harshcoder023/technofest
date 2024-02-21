@@ -4,7 +4,7 @@ import Data from "../animations/Animation - 1707033212018.json";
 import PhoneFillIcon from "remixicon-react/PhoneFillIcon";
 import PhoneLineIcon from "remixicon-react/PhoneLineIcon";
 import InstagramFillIcon from "remixicon-react/InstagramFillIcon";
-import PagesLineIcon from "remixicon-react/PagesLineIcon"
+import PagesLineIcon from "remixicon-react/PagesLineIcon";
 const Contact = () => {
   const defaultOptions = {
     loop: true,
@@ -85,18 +85,19 @@ const Contact = () => {
           <div className="left">
             <h3 className="text-xl font-medium mb-4">Phone</h3>
             <div className="hidden lg:block">
-              <h4 className="flex font-light items-center gap-2 text-[14px]">
-                <PhoneFillIcon color="#fff" size={16} />
-                <a href="tel:7419293392">Niyati Jain (7419293392)</a>
-              </h4>
-              <h4 className="flex font-light items-center gap-2 text-[15px]">
-                <PhoneFillIcon color="#fff" size={16} />
-                <a href="tel:9812689211"> Dr. Aastha Jain (9812689211)</a>
-              </h4>
               <h4 className="flex font-light items-center gap-2 text-[15px]">
                 <PhoneFillIcon color="#fff" size={16} />
                 <a href="tel:9812314747"> Jyoti Sehgal (9812314747)</a>
               </h4>
+              <h4 className="flex font-light items-center gap-2 text-[14px]">
+                <PhoneFillIcon color="#fff" size={16} />
+                <a href="tel:7419293392">Niyati Jain (7419293392)</a>
+              </h4>
+              {/* <h4 className="flex font-light items-center gap-2 text-[15px]">
+                <PhoneFillIcon color="#fff" size={16} />
+                <a href="tel:9812689211"> Dr. Aastha Jain (9812689211)</a>
+              </h4>
+             
               <h4 className="flex font-light items-center gap-2 text-[15px]">
                 <PhoneFillIcon color="#fff" size={16} />
                 <a href="tel:9812066800"> Alok Gupta (9812066800)</a>
@@ -108,25 +109,27 @@ const Contact = () => {
               <h4 className="flex font-light items-center gap-2 text-[15px]">
                 <PhoneFillIcon color="#fff" size={16} />
                 <a href="tel:9034458153"> Akhil (9034458153)</a>
-              </h4>
+              </h4> */}
             </div>
             <div className="lg:hidden">
-              <h4 className="flex font-light items-center gap-2 text-[15px]">
-                <PhoneFillIcon color="#fff" size={16} />
-                <a href="tel:9416657744"> Dr. Sanjay Jindal</a>
-              </h4>
               <h4 className="flex font-light items-center gap-2 text-[14px]">
                 <PhoneFillIcon color="#fff" size={16} />
                 <a href="tel:7419293392">Niyati Jain</a>
               </h4>
               <h4 className="flex font-light items-center gap-2 text-[15px]">
                 <PhoneFillIcon color="#fff" size={16} />
-                <a href="tel:9812689211"> Dr. Aastha Jain</a>
-              </h4>
-              <h4 className="flex font-light items-center gap-2 text-[15px]">
-                <PhoneFillIcon color="#fff" size={16} />
                 <a href="tel:9812314747"> Jyoti Sehgal</a>
               </h4>
+              {/* <h4 className="flex font-light items-center gap-2 text-[15px]">
+                <PhoneFillIcon color="#fff" size={16} />
+                <a href="tel:9416657744"> Dr. Sanjay Jindal</a>
+              </h4>
+
+              <h4 className="flex font-light items-center gap-2 text-[15px]">
+                <PhoneFillIcon color="#fff" size={16} />
+                <a href="tel:9812689211"> Dr. Aastha Jain</a>
+              </h4>
+
               <h4 className="flex font-light items-center gap-2 text-[15px]">
                 <PhoneFillIcon color="#fff" size={16} />
                 <a href="tel:9812066800"> Alok Gupta</a>
@@ -135,7 +138,7 @@ const Contact = () => {
               <h4 className="flex font-light items-center gap-2 text-[15px]">
                 <PhoneFillIcon color="#fff" size={16} />
                 <a href="tel:9034458153"> Akhil</a>
-              </h4>
+              </h4> */}
             </div>
           </div>
           <div className="right w-28 lg:w-auto">
@@ -149,7 +152,10 @@ const Contact = () => {
               </h4>
               <h4 className="flex font-light items-center gap-2 text-[15px]">
                 <InstagramFillIcon color="#fff" size={16} />
-                <a href="https://www.instagram.com/vcertkofficial/" target="_blank">
+                <a
+                  href="https://www.instagram.com/vcertkofficial/"
+                  target="_blank"
+                >
                   vcertkofficial
                 </a>
               </h4>

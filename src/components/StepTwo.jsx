@@ -75,6 +75,8 @@ const StepTwo = ({
       name: "E-Sports",
       team_size: 4,
       category: "Technical Events",
+      minTeam: 2,
+      maxTeam: 4,
       teamRule: "Teams for this event must consist of 2 to 4 members❗",
     },
     {
