@@ -8,11 +8,39 @@ import Sahil from "../assets/sahil.jpg";
 import Yash from "../assets/yash.jpg";
 import Tushar from "../assets/tushar.jpg";
 import Anmol from "../assets/anmol.jpg";
-import Tanishq from "../assets/tanishq.jpg";
+import Tanishq from "../assets/tanishq.webp";
 import Neha from "../assets/neha.jpg";
+import Nikita from "../assets/nikita.jpg";
+import Sejal from "../assets/sejal.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 const Team = () => {
+  const coordinators = [
+    {
+      name: "Sejal",
+      image: Sejal,
+    },
+    {
+      name: "Nikita",
+      image: Nikita,
+    },
+    {
+      name: "Neha Ahlawat",
+      image: Neha,
+    },
+    {
+      name: "Tanishq",
+      image: Tanishq,
+    },
+    {
+      name: "Harsh",
+      image: Harsh,
+    },
+    {
+      name: "Goyal",
+      image: Harsh,
+    },
+  ];
   const teamMembers = [
     {
       name: "Tushar Bhardwaj",
@@ -87,7 +115,7 @@ const Team = () => {
           Meet the team
         </h2>
 
-        <div className="lg:w-[600px] mx-auto">
+        <div className="lg:w-[600px] mx-auto mb-6 lg:mb-8">
           <Carousel
             autoPlay
             emulateTouch
@@ -96,24 +124,29 @@ const Team = () => {
             showArrows
             showIndicators
             showStatus
-            showThumbs
             useKeyboardArrows
+            showThumbs={false}
             swipeable
             interval={2000}
-            dynamicHeight
           >
-            <div className="lg:h-[500px] h-[450px]">
-              <img src={Neha} className="h-full w-full object-cover" />
-              <p className="legend">Legend 1</p>
-            </div>
-            <div className="lg:h-[500px] h-[450px]">
-              <img src={Tanishq} className="h-full w-full object-cover" />
-              <p className="legend">Legend 2</p>
-            </div>
-            <div className="lg:h-[500px] h-[450px]">
-              <img src={Harsh} className="h-full w-full object-cover" />
-              <p className="legend">Legend 3</p>
-            </div>
+            {coordinators.map((coordinator, index) => {
+              return (
+                <div key={index} className="lg:h-[500px] h-[450px] relative">
+                  <img
+                    src={coordinator.image}
+                    className={`h-full w-full object-cover ${
+                      index === 0 || index === 1 || index === 3
+                        ? "object-top"
+                        : ""
+                    }`}
+                  />
+                  {/* <p className="legend">Neha Ahlawat</p> */}
+                  <h3 className="text-center bg-black absolute bottom-[40px] w-[80%] py-2 text-white left-1/2 translate-x-[-50%] rounded-md">
+                    {coordinator.name}
+                  </h3>
+                </div>
+              );
+            })}
           </Carousel>
         </div>
 
