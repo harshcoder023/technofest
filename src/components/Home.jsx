@@ -9,6 +9,7 @@ import About from "./About";
 import Prizes from "./Prizes";
 import Team from "./Team";
 import { Link } from "react-router-dom";
+import Esport from "./Esport";
 const Home = () => {
   const words = [
     "Amazing Events 🎉",
@@ -63,6 +64,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Esport />
       <About />
       <EventSection />
       <Prizes />
