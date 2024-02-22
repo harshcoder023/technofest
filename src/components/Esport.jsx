@@ -40,7 +40,7 @@ const Esport = () => {
                   Esports
                 </h3>
                 <div className=" text-white flex flex-col items-center">
-                  <p className="mb-8 mt-1 drop-shadow-2xl w-[80%] lg:w-full  shadow-black font-medium">
+                  <p className="mb-8 mt-1 drop-shadow-2xl w-[80%] lg:w-full  shadow-black font-semibold lg:font-medium">
                     {" "}
                     Survivor, it's time to lock in your spot in the Battle
                     Royale.
