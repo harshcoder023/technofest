@@ -4,13 +4,16 @@ import { Carousel } from "react-responsive-carousel";
 
 const Esport = () => {
   return (
-    <div className="min-h-[60vh] bg-[#0e1538] pt-12 pb-16 ">
+    <div className="lg:min-h-[85vh] min-h-[60vh] bg-[#0e1538] pt-12 pb-16 ">
       <h2
         // data-aos="fade-top"
-        className=" text-white font-handwriting text-2xl font-[800] text-center mb-7 lg:text-3xl lg:font-semibold lg:mb-12"
+        className=" text-white font-mont uppercase text-3xl font-[800] text-center  lg:text-3xl lg:font-semibold mb-2"
       >
         Featured Events
       </h2>
+      <p className="text-white text-center mb-12 text-sm">
+        Discover the Thrilling Lineup of Events Awaited!
+      </p>
       <div className="container max-w-screen-lg mx-auto px-3 lg:px-0">
         <div className="lg:w-[800px] mx-auto">
           <Carousel
@@ -37,7 +40,7 @@ const Esport = () => {
                   Esports
                 </h3>
                 <div className=" text-white flex flex-col items-center">
-                  <p className="mb-8 mt-1 drop-shadow-2xl w-[80%] lg:w-full  shadow-black">
+                  <p className="mb-8 mt-1 drop-shadow-2xl w-[80%] lg:w-full  shadow-black font-medium">
                     {" "}
                     Survivor, it's time to lock in your spot in the Battle
                     Royale.
