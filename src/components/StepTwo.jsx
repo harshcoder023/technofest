@@ -71,14 +71,7 @@ const StepTwo = ({
       category: "Technical Events",
       teamRule: "Teams for this event must consist of either 1 or 2 members❗",
     },
-    {
-      name: "E-Sports",
-      team_size: 4,
-      category: "Technical Events",
-      minTeam: 2,
-      maxTeam: 4,
-      teamRule: "Teams for this event must consist of 2 to 4 members❗",
-    },
+
     {
       name: "Earning by Learning",
       team_size: 3,
@@ -324,7 +317,7 @@ const StepTwo = ({
       {({ values, isSubmitting }) => (
         <Form>
           {/* ////////// */}
-          <h2 className="text-lg font-medium mb-2 mt-16">Event Details</h2>
+          <h2 className="text-lg font-medium mb-2 mt-2">Event Details</h2>
           <h3 className="mb-3  bg-gray-700 text-white rounded-md px-1.5 py-1">
             For any queries, feel free to send a message or call us at{" "}
             <a href="tel:9812314747">9485518900</a>.
