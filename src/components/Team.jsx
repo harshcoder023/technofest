@@ -12,6 +12,8 @@ import Tanishq from "../assets/tanishq.webp";
 import Neha from "../assets/neha.jpg";
 import Nikita from "../assets/nikita.jpg";
 import Sejal from "../assets/sejal.jpg";
+import Lakshay from "../assets/lakshay.jpg";
+import Sachin from "../assets/sachin.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 const Team = () => {
@@ -33,12 +35,12 @@ const Team = () => {
       image: Tanishq,
     },
     {
-      name: "Harsh",
-      image: Harsh,
+      name: "Lakshay",
+      image: Lakshay,
     },
     {
-      name: "Goyal",
-      image: Harsh,
+      name: "Sachin",
+      image: Sachin,
     },
   ];
   const teamMembers = [
