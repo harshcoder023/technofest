@@ -1,6 +1,7 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import { Link } from "react-router-dom";
 
 const Esport = () => {
   return (
@@ -88,6 +89,13 @@ const Esport = () => {
                 <h3 className="font-mont font-extrabold uppercase text-white  lg:text-3xl drop-shadow-lg shadow-black lg:leading-7 text-[22px] leading-6">
                   Bollywood Extravaganza: <br /> Lights, Camera, Action! 🎬
                 </h3>
+                <Link
+                  to="/events/21"
+                  href="https://forms.gle/Fj9w3KECyPNczVRT7"
+                  className="text-white bg-gray-900  font-medium text-sm px-5 py-2.5 text-center me-2 mb-2 mt-4"
+                >
+                  Know more
+                </Link>
               </div>
             </div>
           </Carousel>
