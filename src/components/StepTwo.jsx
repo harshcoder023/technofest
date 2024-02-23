@@ -160,6 +160,11 @@ const StepTwo = ({
       category: "Cultural Events",
     },
     {
+      name: "Poetry",
+      team_size: 1,
+      category: "Cultural Events",
+    },
+    {
       name: "Couple Cricket",
       team_size: 1,
       category: "Sports Events",
