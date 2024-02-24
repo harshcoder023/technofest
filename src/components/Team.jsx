@@ -153,9 +153,16 @@ const Team = () => {
         </div>
 
         <p className="font-sans text-center ">
-          Get to know the dedicated team behind TechnoFest 2024! Comprising 9
-          passionate members, we're bringing you an unforgettable event
-          experience.
+          Meet the fantastic team behind TechnoFest 2024, with special thanks to
+          our teacher,{" "}
+          <a
+            href="https://www.linkedin.com/in/er-alok-gupta-53927bb4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            className="underline font-medium"
+          >
+            Mr. Alok Gupta
+          </a>
+          , for his support & guidance. With 9 dedicated members, we're thrilled
+          to bring you an unforgettable event experience!
         </p>
 
         <div className="members lg:w-[85%] lg:mx-auto  flex flex-wrap gap-y-12 gap-x-24 max-[410px]:gap-x-20 lg:gap-16 justify-center pt-6">

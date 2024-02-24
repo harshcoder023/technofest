@@ -173,7 +173,7 @@ const Context = (props) => {
       name: "E-Sports",
       details: [
         "The in-game rooms that are going to be created for the tournament are going to be for squad participation only.",
-        "The team can be formed with maximum 4 players; the minimum requirement for the team will be at least 2 players.",
+
         "The players can play on android/iOS Mobile only (no tablet or iPad will be allowed)",
         "Only in-game voice chat should be used after the game is started till its completion.",
         "Any use of unfair means such as Aim bot, Trigger bot, ESP will result into team disqualification.",
