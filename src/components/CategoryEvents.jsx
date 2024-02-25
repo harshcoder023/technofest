@@ -20,6 +20,9 @@ const CategoryEvents = () => {
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize first letter of each word
     .join(" "); // Join with spaces
   // console.log(eventsInCategory);
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="w-full min-h-[100vh] pb-12 pt-[7vh] lg:pb-0 bg-[#0e1538] font-mont">
       <h2 className="text-xl uppercase font-[700] text-center pt-12 mb-8 lg:text-2xl text-white">

@@ -305,6 +305,7 @@ const StepTwo = ({
           <h3 className=" font-[500]">
             {eventName} <span className="text-sm">(Team Details)</span>
           </h3>
+
           <div className="">
             <span className="font-medium">Requirement -</span>
             <span className="text-[15px]">{event.teamRule}</span>
