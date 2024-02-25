@@ -128,7 +128,7 @@ const StepTwo = ({
       category: "Cultural Events",
     },
     {
-      name: "Halloween Show",
+      name: "Halloween / Bollywood Cosplay",
       team_size: 2,
       category: "Cultural Events",
       teamRule: "Teams for this event must consist of either 1 or 2 members❗",
@@ -167,6 +167,16 @@ const StepTwo = ({
     {
       name: "Theatre",
       team_size: 6,
+      category: "Cultural Events",
+    },
+    {
+      name: "Hairstyle",
+      team_size: 1,
+      category: "Cultural Events",
+    },
+    {
+      name: "Makeover",
+      team_size: 1,
       category: "Cultural Events",
     },
     {
@@ -303,7 +313,7 @@ const StepTwo = ({
             Ensure your team size meets the specific requirements. Provide data
             for your team members accordingly. For other fields, use the
             following dummy data: Name: <span className="font-medium">abc</span>
-            , Roll No.: <span className="font-medium">1/1/1</span>, Phone No.:{" "}
+            , Roll No.: <span className="font-medium">1</span>, Phone No.:{" "}
             <span className="font-medium">0000000000</span>.
           </p>
           <div className="pt-4 pb-2.5">{memberFields}</div>

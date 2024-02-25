@@ -343,7 +343,7 @@ const Context = (props) => {
     },
     {
       id: 21,
-      name: "Halloween / Bollywood Show",
+      name: "Halloween / Bollywood Cosplay",
       details: [
         "This event can have participant combination (either one or two).",
         "Participants will showcase their style and confidence in the ramp walk segment.",
@@ -476,6 +476,30 @@ const Context = (props) => {
     },
     {
       id: 29,
+      name: "Hairstyle",
+      details: [""],
+      image:
+        "https://i.ytimg.com/vi/qz19LuCYUm0/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCtksb9t27WxafJSZersC7-LxYRTA",
+      timing: "Timings to be announced soon. Stay tuned!",
+      category: "cultural-events",
+      coordinator:
+        "Contact our coordinators, Nikita (8307108663), for any queries.",
+      team_size: 2,
+    },
+    {
+      id: 30,
+      name: "Makeover",
+      details: [""],
+      image:
+        "https://productimages.withfloats.com/serviceimages/tile/6364f29cab224662e1afac5cPARTY%20MAKEUP",
+      timing: "Timings to be announced soon. Stay tuned!",
+      category: "cultural-events",
+      coordinator:
+        "Contact our coordinators, Nikita (8307108663), for any queries.",
+      team_size: 2,
+    },
+    {
+      id: 31,
       name: "Couple Cricket",
       details: [
         "Couple cricket teams consist of one male and one female player.",
@@ -494,7 +518,7 @@ const Context = (props) => {
       team_size: 2,
     },
     {
-      id: 30,
+      id: 32,
       name: "Table Tennis",
       details: ["The event will be conducted as per rules."],
       image:
@@ -506,7 +530,7 @@ const Context = (props) => {
       team_size: 2,
     },
     {
-      id: 31,
+      id: 33,
       name: "Chess",
       details: ["The event will be conducted as per rules."],
       image:
@@ -518,7 +542,7 @@ const Context = (props) => {
       team_size: 2,
     },
     {
-      id: 32,
+      id: 34,
       name: "Badminton",
       details: ["The event will be conducted as per rules."],
       image:
