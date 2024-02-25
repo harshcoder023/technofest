@@ -454,7 +454,7 @@ const Context = (props) => {
     {
       id: 27,
       name: "Theatre",
-      details: [""],
+      details: [],
       image: "https://cdn.forum-theatre.com/1663754345253.jpg",
       timing: "Timings to be announced soon. Stay tuned!",
       category: "cultural-events",
@@ -465,7 +465,7 @@ const Context = (props) => {
     {
       id: 28,
       name: "Poetry",
-      details: [""],
+      details: [],
       image:
         "https://th.bing.com/th/id/R.b6d0d586b5cdfd871a7fc1cca1bd2fcf?rik=%2bCp1ZBq4m66Mcw&riu=http%3a%2f%2fwww.micagallery.org%2fwp-content%2fuploads%2f2016%2f01%2fpoetry-book-reading-.jpg&ehk=5LjwQ2ZJ1fBxDbYyGyQ%2bS6Lnu8cI3YaxUV3OKp8Oxgo%3d&risl=&pid=ImgRaw&r=0",
       timing: "Timings to be announced soon. Stay tuned!",
@@ -477,7 +477,7 @@ const Context = (props) => {
     {
       id: 29,
       name: "Hairstyle",
-      details: [""],
+      details: [],
       image:
         "https://i.ytimg.com/vi/qz19LuCYUm0/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCtksb9t27WxafJSZersC7-LxYRTA",
       timing: "Timings to be announced soon. Stay tuned!",
@@ -489,7 +489,7 @@ const Context = (props) => {
     {
       id: 30,
       name: "Makeover",
-      details: [""],
+      details: [],
       image:
         "https://productimages.withfloats.com/serviceimages/tile/6364f29cab224662e1afac5cPARTY%20MAKEUP",
       timing: "Timings to be announced soon. Stay tuned!",

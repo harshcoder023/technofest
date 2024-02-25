@@ -24,7 +24,9 @@ const Event = () => {
           <h1 className="text-lg font-[600] uppercase mt-2">{event.name}</h1>
           <p className="text-[13px] font-[500] mt-1">{event.timing}</p>
           <p className="text-[13px] font-[500] mt-2">{event.coordinator}</p>
-          <h3 className="text-md mt-2.5 font-medium">Event Details -</h3>
+          {event.details.length > 0 && (
+            <h3 className="text-md mt-2.5 font-medium">Event Details -</h3>
+          )}
           <ul className="mb-4 list-inside list-disc mt-1 text-sm">
             {event.details.map((item, i) => {
               return <li key={i}>{item}</li>;
