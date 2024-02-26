@@ -9,6 +9,7 @@ import Home from "./components/Home";
 import CategoryEvents from "./components/CategoryEvents";
 import Event from "./components/Event";
 import MultiStepForm from "./components/MultiStepForm";
+import RegistrationClosed from "./components/RegistrationClosed";
 
 // import VerificationForm from "./components/VerificationForm";
 function App() {
@@ -21,7 +22,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/registeration-form" element={<MultiStepForm />} />
+        <Route path="/registeration-form" element={<RegistrationClosed />} />
         <Route path="/events/:id" element={<Event />} />
         <Route path="/category/:category" element={<CategoryEvents />} />
       </Routes>
