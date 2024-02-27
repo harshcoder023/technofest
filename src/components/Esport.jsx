@@ -92,24 +92,6 @@ const Esport = () => {
                 </Link>
               </div>
             </div>
-            <div className="lg:h-[400px] h-[450px] relative">
-              <img
-                src="https://www.india.com/wp-content/uploads/2017/09/blind-dates.jpg"
-                alt=""
-                className="absolute w-full h-full left-0 top-0 object-cover object-center"
-              />
-              <div className="text absolute z-10 w-full h-full left-0 top-0 flex justify-center items-center flex-col">
-                <h3 className="font-mont font-extrabold uppercase text-black  text-5xl drop-shadow-lg shadow-blue-500">
-                  BLIND DATE
-                </h3>
-                <div className=" text-black flex flex-col items-center">
-                  <p className="mb-8 mt-1 drop-shadow-2xl   lg:w-full  shadow-black font-semibold lg:font-medium">
-                    {" "}
-                    Take a Chance, Embrace the Mystery
-                  </p>
-                </div>
-              </div>
-            </div>
           </Carousel>
         </div>
       </div>
